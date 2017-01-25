@@ -4,7 +4,7 @@
 
        <div class='box'>
         <h1>Shav D. Parta</h1>
-        <h2>Story Of A Noob</h2>
+        <h4>Story Of A Noob</h4>
        </div>
 
        <div class='btn-list'>

@@ -21,6 +21,10 @@ export default {
 </script>
 
 <style>
+
+body{
+  font-family: 'Lobster';
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -45,6 +49,7 @@ li {
 
 a {
   color: #42b983;
+  font-family: 'Avenir';
 }
 
 p{
