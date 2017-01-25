@@ -2,8 +2,10 @@
 
   <div>
     <div class="parallax-container">
+      <h1><em>About</em></h1>
+      <p>Noob learning how to build things</p>
       <div class="parallax">
-        <img src="https://hd.unsplash.com/photo-1465417001205-3e465bfad702">
+        <img src="https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=">
       </div>
     </div>
     <div class="section white">
@@ -13,7 +15,7 @@
       </div>
     </div>
     <div class="parallax-container">
-      <div class="parallax"><img src="https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop="></div>
+      <div class="parallax"><img src="https://hd.unsplash.com/photo-1465417001205-3e465bfad702"></div>
     </div>
   </div>
 </template>
