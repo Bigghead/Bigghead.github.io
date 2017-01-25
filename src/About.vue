@@ -12,10 +12,13 @@
       <div class="row container">
         <h2 class="header">Parallax</h2>
         <p class="grey-text text-darken-3 lighten-3">Definitely too much parallax. Looks very cool though</p>
+        <p class="grey-text text-darken-3 lighten-3">Definitely too much parallax. Looks very cool though</p>
+        <p class="grey-text text-darken-3 lighten-3">Definitely too much parallax. Looks very cool though</p>
+
       </div>
     </div>
     <div class="parallax-container">
-      <div class="parallax"><img src="https://hd.unsplash.com/photo-1465417001205-3e465bfad702"></div>
+      <div class="parallax"><img src="https://images.unsplash.com/photo-1482398650355-d4c6462afa0e?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop="></div>
     </div>
   </div>
 </template>

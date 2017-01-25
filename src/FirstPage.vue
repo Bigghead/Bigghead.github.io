@@ -1,11 +1,10 @@
 <template id="">
   <div class ="pageone">
-     <div class ='block text-center'>
+     <div class ='center-align'>
 
        <div class='box'>
         <h1>Shav D. Parta</h1>
         <h4>Story Of A Noob</h4>
-       </div>
 
        <div class='btn-list'>
         <a class ='waves-effect waves-light btn' href='#'>Facebook</a>
@@ -13,6 +12,7 @@
         <a class ="waves-effect waves-light btn" href='#'>Instagram</a>
         <a class ="waves-effect waves-light btn" href='#'>MySpace??</a>
        </div>
+     </div>
      </div>
    </div>
 </template>
@@ -25,13 +25,13 @@
 .pageone{
 background :url("https://hd.unsplash.com/photo-1467173572719-f14b9fb86e5f");
 background-size: cover;
-height: 800px;
-text-align: center;
+height: auto;
 background-attachment:fixed;
 background-position:fixed;
 }
 .box{
-padding-top: 20%;
+padding:20%;
+margin:auto;
 color: white;
 }
 </style>
