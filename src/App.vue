@@ -1,15 +1,18 @@
 <template>
-  <div >
+  <div>
     <app-nav></app-nav>
+    <first-page></first-page>
   </div>
 </template>
 
 <script>
 
 import Header from './Header.vue'
+import FirstPage from './FirstPage.vue'
 export default {
   components:{
-    'app-nav' : Header
+    'app-nav' : Header,
+    'first-page': FirstPage
   }
 }
 </script>
