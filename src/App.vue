@@ -2,6 +2,7 @@
   <div>
     <app-nav></app-nav>
     <first-page></first-page>
+    <about-page></about-page>
   </div>
 </template>
 
@@ -9,10 +10,12 @@
 
 import Header from './Header.vue'
 import FirstPage from './FirstPage.vue'
+import About from './About.vue'
 export default {
   components:{
     'app-nav' : Header,
-    'first-page': FirstPage
+    'first-page': FirstPage,
+    'about-page': About
   }
 }
 </script>
@@ -42,5 +45,10 @@ li {
 
 a {
   color: #42b983;
+}
+
+p{
+  color:#00FFFF;
+ font-size:2em;
 }
 </style>
