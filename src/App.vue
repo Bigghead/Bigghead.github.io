@@ -3,6 +3,7 @@
     <app-nav></app-nav>
     <first-page></first-page>
     <about-page></about-page>
+    <port-page></port-page>
   </div>
 </template>
 
@@ -11,11 +12,13 @@
 import Header from './Header.vue'
 import FirstPage from './FirstPage.vue'
 import About from './About.vue'
+import Portfolio from './Portfolio.vue'
 export default {
   components:{
     'app-nav' : Header,
     'first-page': FirstPage,
-    'about-page': About
+    'about-page': About,
+    'port-page': Portfolio
   }
 }
 </script>

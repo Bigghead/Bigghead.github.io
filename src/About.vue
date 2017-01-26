@@ -8,12 +8,12 @@
         <img src="https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=">
       </div>
     </div>
-    <div class="section white">
-      <div class="row container">
-        <h2 class="header">Parallax</h2>
-        <p class="grey-text text-darken-3 lighten-3">Definitely too much parallax. Looks very cool though</p>
-        <p class="grey-text text-darken-3 lighten-3">Definitely too much parallax. Looks very cool though</p>
-        <p class="grey-text text-darken-3 lighten-3">Definitely too much parallax. Looks very cool though</p>
+    <div class="section black">
+      <div class="row container grey-text">
+        <h2 class="header " v-on:click='changeMessage'>{{ message }} + Stuff</h2>
+        <p class=" text-lighten-1">Too much parallax?</p>
+        <p class=" text-lighten-1">Definitely too much parallax. Looks very cool though</p>
+
 
       </div>
     </div>
@@ -25,7 +25,17 @@
 
 <script type="text/javascript">
   export default{
+    data: function(){
+      return {
+        message: 'Parallax'
+      }
+    },
 
+    methods: {
+      changeMessage: function(){
+        this.message = 'Too Much'
+      }
+    }
   }
 </script>
 
@@ -37,13 +47,15 @@
   height: 800px;
 }
 
+
+
 h1{
   margin-top: 0;
   color: white;
 }
 
 img{
-  display: inline !important;
+  display: inline ;
   background-size: cover;
 }
 </style>
