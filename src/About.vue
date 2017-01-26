@@ -8,23 +8,33 @@
         <img src="https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=">
       </div>
     </div>
+
+    <port-page></port-page>
+
     <div class="section black">
       <div class="row container grey-text">
         <h2 class="header " v-on:click='changeMessage'>{{ message }} + Stuff</h2>
         <p class=" text-lighten-1">Too much parallax?</p>
         <p class=" text-lighten-1">Definitely too much parallax. Looks very cool though</p>
-
-
       </div>
     </div>
+
     <div class="parallax-container">
-      <div class="parallax"><img src="https://images.unsplash.com/photo-1482398650355-d4c6462afa0e?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop="></div>
+      <div class="parallax">
+        <img src="https://images.unsplash.com/photo-1482398650355-d4c6462afa0e?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=">
+      </div>
     </div>
   </div>
 </template>
 
 <script type="text/javascript">
+
+import Portfolio from './Portfolio.vue'
   export default{
+
+    components:{
+      'port-page': Portfolio
+    },
     data: function(){
       return {
         message: 'Parallax'
@@ -56,6 +66,5 @@ h1{
 
 img{
   display: inline ;
-  background-size: cover;
 }
 </style>

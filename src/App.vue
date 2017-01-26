@@ -3,7 +3,6 @@
     <app-nav></app-nav>
     <first-page></first-page>
     <about-page></about-page>
-    <port-page></port-page>
   </div>
 </template>
 
