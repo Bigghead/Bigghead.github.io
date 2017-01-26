@@ -10,7 +10,7 @@
             <div class='port-item'>
               <h5>Momentum Clone</h5>
               <img src='./assets/Momentum.png'>
-              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a>
+              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a><span> |</span>
               <a href='#a'>Live Example</a>
 
 
@@ -21,7 +21,7 @@
             <div class='port-item'>
               <h5>Voting App</h5>
               <img src='./assets/fccVoting.png'>
-              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a>
+              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a><span> |</span>
               <a href='#a'>Live Example</a>
             </div>
           </div>
@@ -30,7 +30,7 @@
             <div class='port-item'>
               <h5>Night Life Coordination App</h5>
               <img src='./assets/NightLife.png'>
-              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a>
+              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a><span> |</span>
               <a href='#a'>Live Example</a>
             </div>
           </div>
@@ -39,7 +39,7 @@
             <div class='port-item'>
               <h5>Stock Market Charting</h5>
               <img src='./assets/StockChart.png'>
-              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a>
+              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a><span> |</span>
               <a href='#a'>Live Example</a>
             </div>
           </div>
@@ -48,7 +48,7 @@
             <div class='port-item'>
               <h5>Watson Tone Analyzer</h5>
               <img src='./assets/Tone-Analyzer.png'>
-              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a>
+              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a><span> |</span>
               <a href='#a'>Live Example</a>
             </div>
           </div>

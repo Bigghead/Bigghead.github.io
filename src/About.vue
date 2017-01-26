@@ -2,8 +2,18 @@
 
   <div>
     <div class="parallax-container">
-      <h1><em>About</em></h1>
-      <p>Noob learning how to build things</p>
+      <div class="row">
+        <div class="col m9">
+          <h1><em>About</em></h1>
+          <p>Noob learning how to build things</p>
+        </div>
+
+          <div class="col m3">
+            <img class='profilePic' src="https://avatars2.githubusercontent.com/u/19599037?v=3&u=edf107b06b4bbb2de355e46bbacc09e2798ad486&s=400" alt="" />
+          </div>
+
+      </div>
+
       <div class="parallax">
         <img src="https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=">
       </div>
@@ -57,7 +67,10 @@ import Portfolio from './Portfolio.vue'
   height: 800px;
 }
 
-
+.profilePic{
+  border-radius: 50%;
+  margin-top: 20%;
+}
 
 h1{
   margin-top: 0;

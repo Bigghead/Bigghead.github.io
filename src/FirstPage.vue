@@ -7,9 +7,9 @@
         <h4>Story Of A Noob</h4>
 
        <div class='btn-list'>
-        <a class ='waves-effect waves-light btn' href='#'>Facebook</a>
+        <a class ='waves-effect waves-light btn' href='#'>Github</a>
         <a class ="waves-effect waves-light btn" href='#'>Twitter</a>
-        <a class ="waves-effect waves-light btn" href='#'>Instagram</a>
+        <a class ="waves-effect waves-light btn" href='#'>LinkedIn</a>
         <a class ="waves-effect waves-light btn" href='#'>MySpace??</a>
        </div>
      </div>
