@@ -1,9 +1,9 @@
-<template id="">
-  <div class="">
+<template id="" >
+  <div class="" >
     <div class="container center-align">
       <h3>Projects I've Done:</h3>
 
-
+      <button type="button" name="button" @click="run"></button>
 
       <div class="row">
           <div class="col m6 s12">
@@ -57,13 +57,21 @@
 
 
   </div>
+
 </template>
 
 <script type="text/javascript">
 export default{
   data: function(){
     return {
-      show: true
+      show: true,
+    }
+  },
+  methods: {
+    run: function(){
+      window.sr = ScrollReveal({reset: true});
+      console.log(window.top);
+      sr.reveal('.port-item', { duration: 1000 });
     }
   }
 }
@@ -77,15 +85,7 @@ img{
     border: solid 2px grey;
   }
 
-  .slide-fade-enter-active {
-    transition: all .3s ease;
-  }
-  .slide-fade-leave-active {
-    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-  }
-  .slide-fade-enter, .slide-fade-leave-to
-/* .slide-fade-leave-active for <2.1.8 */ {
-  transform: translateX(10px);
-  opacity: 0;
+.port-item{
+  transition: all 0.3 ease;
 }
 </style>
