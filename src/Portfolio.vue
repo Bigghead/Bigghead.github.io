@@ -1,9 +1,7 @@
 <template id="" >
-  <div class="" >
+  <div id="main" >
     <div class="container center-align">
       <h3>Projects I've Done:</h3>
-
-      <button type="button" name="button" @click="run"></button>
 
       <div class="row">
           <div class="col m6 s12">
@@ -61,20 +59,18 @@
 </template>
 
 <script type="text/javascript">
+
+
+
+
 export default{
   data: function(){
     return {
       show: true,
     }
-  },
-  methods: {
-    run: function(){
-      window.sr = ScrollReveal({reset: true});
-      console.log(window.top);
-      sr.reveal('.port-item', { duration: 1000 });
-    }
   }
 }
+
 </script>
 
 <style media="screen">
