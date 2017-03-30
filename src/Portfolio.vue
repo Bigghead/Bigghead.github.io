@@ -3,53 +3,37 @@
     <div class="container center-align">
       <h3>Projects I've Done:</h3>
 
-      <div class="row">
-          <div class="col m6 s12">
-            <div class='port-item'>
-              <h5>Momentum Clone</h5>
-              <img src='./assets/Momentum.png'>
-              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a><span> |</span>
-              <a href='#a'>Live Example</a>
 
 
-            </div>
-          </div>
+      <div class="row" >
 
-          <div class="col m6 s12">
-            <div class='port-item'>
-              <h5>Voting App</h5>
-              <img src='./assets/fccVoting.png'>
-              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a><span> |</span>
-              <a href='#a'>Live Example</a>
-            </div>
-          </div>
+         <div class="col s4">
+          <button class='waves-effect waves-light btn-large red'>
+            All Projects
+          </button>
+        </div>
 
-          <div class="col m6 s12">
-            <div class='port-item'>
-              <h5>Night Life Coordination App</h5>
-              <img src='./assets/NightLife.png'>
-              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a><span> |</span>
-              <a href='#a'>Live Example</a>
-            </div>
-          </div>
+        <div class="col s4">
+          <button class='waves-effect waves-light btn-large red'>
+            Static Projects
+          </button>
+        </div>
 
-          <div class="col m6 s12">
-            <div class='port-item'>
-              <h5>Stock Market Charting</h5>
-              <img src='./assets/StockChart.png'>
-              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a><span> |</span>
+        <div class="col s4">
+          <button class='waves-effect waves-light btn-large red'>
+            Node.js Projects
+          </button>
+        </div>
+          <div class="col m6 s12" v-for='project in projects'>
+            <div class='port-item1'>
+              <h5>{{ project.name }}</h5>
+              <img v-bind:src=project.image>
+              <a v-bind:href='project.githubLink'>Github</a><span> |</span>
               <a href='#a'>Live Example</a>
             </div>
           </div>
 
-          <div class="col m6 s12">
-            <div class='port-item'>
-              <h5>Watson Tone Analyzer</h5>
-              <img src='./assets/Tone-Analyzer.png'>
-              <a href='https://github.com/Bigghead/Momentum-Clone'>Github</a><span> |</span>
-              <a href='#a'>Live Example</a>
-            </div>
-          </div>
+      </div>
     </div>
 
 
@@ -67,6 +51,33 @@ export default{
   data: function(){
     return {
       show: true,
+      projects: [
+       
+        {
+          name: "Stock Market Charting", 
+          image: require('./assets/StockChart.png'),
+          githubLink: 'https://github.com/Bigghead/Momentum-Clone',
+          static: false
+        },
+        {
+          name: "Voting App", 
+          image: require('./assets/fccVoting.png'),
+          githubLink: 'https://github.com/Bigghead/Momentum-Clone',
+          static: false
+        },
+        {
+          name: "Night-Life Coordination", 
+          image: require('./assets/NightLife.png'),
+          githubLink: 'https://github.com/Bigghead/Momentum-Clone',
+          static: false
+        },
+        {
+          name: "Momentum Clone", 
+          image: require('./assets/Momentum.png'),
+          githubLink: 'https://github.com/Bigghead/Momentum-Clone',
+          static: true
+        }
+      ]
     }
   }
 }
