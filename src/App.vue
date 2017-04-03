@@ -12,11 +12,13 @@ import Header from './Header.vue'
 import FirstPage from './FirstPage.vue'
 import About from './About.vue'
 import Portfolio from './Portfolio.vue'
+
+import TestAbout from './Test.vue';
 export default {
   components:{
     'app-nav' : Header,
     'first-page': FirstPage,
-    'about-page': About,
+    'about-page': TestAbout,
     'port-page': Portfolio
   }
 }

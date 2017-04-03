@@ -7,10 +7,8 @@
         <h4>Story Of A Noob</h4>
 
        <div class='btn-list'>
-        <a class ='waves-effect waves-light btn' href='#'>Github</a>
-        <a class ="waves-effect waves-light btn" href='#'>Twitter</a>
-        <a class ="waves-effect waves-light btn" href='#'>LinkedIn</a>
-        <a class ="waves-effect waves-light btn" href='#'>MySpace??</a>
+        <a class ='waves-effect waves-light btn' href='https://github.com/Bigghead'>Github</a>
+        <a class ="waves-effect waves-light btn" href='https://codepen.io/Bigghead/pens/public/'>Codepen</a>
        </div>
      </div>
      </div>
