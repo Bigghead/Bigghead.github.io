@@ -23,9 +23,11 @@
                                 <li class="tab col s3"><a class="" href="#test3">Hobbies</a></li>
                             </ul>
                         </div>
-                        <div id="test1" class="col s12">Skills</div>
-                        <div id="test2" class="col s12">Skills</div>
-                        <div id="test3" class="col s12">Hobbies</div>
+                        <div class="carousel " >
+                            <div id="test1" class="col s12 carousel-item animated fadeInLeft">Skills</div>
+                            <div id="test2" class="col s12 carousel-item animated fadeInDown">Skills</div>
+                            <div id="test3" class="col s12 carousel-item animated fadeInRight">Hobbies</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -97,4 +99,8 @@
     .tabs {
         background-color: transparent;
     }
+    
+
+
+
 </style>
