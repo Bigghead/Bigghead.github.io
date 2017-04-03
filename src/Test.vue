@@ -75,7 +75,7 @@
 
 </script>
 
-<style media="screen">
+<style media="screen" scoped>
     .page2 {
         background-color: black;
         background: url("https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=");

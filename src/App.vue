@@ -18,7 +18,7 @@ export default {
   components:{
     'app-nav' : Header,
     'first-page': FirstPage,
-    'about-page': TestAbout,
+    'about-page': About,
     'port-page': Portfolio
   }
 }
