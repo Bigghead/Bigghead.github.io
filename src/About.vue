@@ -3,7 +3,7 @@
   <div>
     <div class="parallax-container">
       <div class="parallax">
-        <img  src="https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=">
+        <img src="https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=">
       </div>
 
       <div class="row">
@@ -23,18 +23,25 @@
                 <li class="tab col s3"><a class="" href="#test3">Hobbies</a></li>
               </ul>
 
-                <div id="test1" class="col s12 color1 about-mes carousel-item animated fadeInLeft">
-                  <span>I build projects from the ground up so I understand all stages of development, from research and design to deployment. </span>
-                  <br>
-                  <span> I work with HTML, CSS (Sass), JavaScript (jQuery, ES6 & Angular.js) and Node.js.</span>
-                  <br>
-                  <span>I build projects from the ground up so I understand all stages of development, from research and design to deployment. </span>
-                 <br>
-                  <span> I work with HTML, CSS (Sass), JavaScript (jQuery, ES6 & Angular.js) and Node.js.</span>
-                  
-                </div>
-                <div id="test2" class="col s12 color2 about-mes carousel-item animated fadeInDown">Skills</div>
-                <div id="test3" class="col s12 color3 about-mes carousel-item animated fadeInRight">Hobbies</div>
+              <div id="test1" class="col s12 color1 about-mes carousel-item animated fadeInLeft">
+                <span>Just a noob learning about things</span>
+                <br>
+
+              </div>
+              <div id="test2" class="col s12 color2 about-mes carousel-item animated fadeInDown">Skills:
+                <span>Super Noob, but I like working with JavaScript to make cool things</span>
+                <br>
+                <span> I work with HTML, CSS, JavaScript (jQuery, ES6 & React/Vue.js) and Node.js.</span>
+                <br>
+                <span>Currently learning about React.js, but I've had experience with using Vue.js in my projects</span>
+              </div>
+              <div id="test3" class="col s12 color3 about-mes carousel-item animated fadeInRight">Hobbies:
+                <span>I like taking naps, and watching Youtube vids about food</span>
+                <br>
+                <span>Food</span>
+                <br>
+                <span>I want to play around with Phaser.io</span>
+              </div>
             </div>
 
           </div>
@@ -104,11 +111,11 @@
   }
   
   .color2 {
-    background: #283048;
+    background: #4568DC;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #283048, #859398);
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #283048, #859398);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   
@@ -129,16 +136,16 @@
     background: linear-gradient(to left, #348F50, #56B4D3);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
-
-  .carousel{
+  
+  .carousel {
     height: 250px;
   }
-  .about-mes{
+  
+  .about-mes {
     display: block;
-    word-wrap: break-all; 
+    word-wrap: break-all;
     height: 250px;
     width: 100%;
     font-size: 24px;
-
   }
 </style>

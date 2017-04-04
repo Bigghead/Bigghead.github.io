@@ -96,6 +96,15 @@
 
           },
           {
+            name: "Momentum Clone",
+            image: require('./assets/Momentum.png'),
+            githubLink: 'https://github.com/Bigghead/Momentum-Clone',
+            liveLink: 'http://rawgit.com/Bigghead/Momentum-Clone/master/index.html',
+            static: true,
+            techs: ['HTML', 'CSS', 'JavaScript']
+
+          },
+          {
             name: "Camper Leaderboard",
             image: require('./assets/CamperLeaderboard.png'),
             githubLink: 'https://github.com/Bigghead/Camper-Leaderboard',
