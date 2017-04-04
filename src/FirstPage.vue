@@ -5,6 +5,7 @@
        <div class='box'>
         <h1>Shav D. Parta</h1>
         <h4>Story Of A Noob</h4>
+        
 
        <div class='btn-list'>
         <a class ='waves-effect waves-light btn' href='https://github.com/Bigghead'>Github</a>
