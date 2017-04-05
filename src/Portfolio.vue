@@ -26,11 +26,11 @@
         </div>
 
 
-        <div class="col m6 s12" v-for='project in projects'>
+        <div class="col m6 s12 hello  " v-for='project in projects'>
           <div class='port-item1'>
             <h4>{{ project.name }}</h3>
             <h6> {{ project.techs }} </h5>
-            <img v-bind:src=project.image>
+            <img v-bind:src=project.image class='responsive-img'>
             <a v-bind:href='project.githubLink'>Github</a><span> |</span>
             <a v-bind:href='project.liveLink'>Live Example</a>
           </div>
@@ -75,16 +75,14 @@
             liveLink: 'https://calm-shelf-79440.herokuapp.com/',
             static: false,
             techs: ['HTML', 'Bootstrap', 'Node/Express', 'Google Maps API', 'YELP API', 'EJS']
-
           },
           {
             name: "Book Trading App",
             image: require('./assets/BookTradingApp.png'),
             githubLink: 'https://github.com/Bigghead/book-trading-app',
             liveLink: 'https://lychee-pie-43109.herokuapp.com/',
-            static: true,
+            static: false,
             techs: ['HTML', 'Materialize', 'Node/Express', 'EJS']
-
           },
           {
             name: "Momentum Clone",
@@ -93,16 +91,6 @@
             liveLink: 'http://rawgit.com/Bigghead/Momentum-Clone/master/index.html',
             static: true,
             techs: ['HTML', 'CSS', 'JavaScript']
-
-          },
-          {
-            name: "Momentum Clone",
-            image: require('./assets/Momentum.png'),
-            githubLink: 'https://github.com/Bigghead/Momentum-Clone',
-            liveLink: 'http://rawgit.com/Bigghead/Momentum-Clone/master/index.html',
-            static: true,
-            techs: ['HTML', 'CSS', 'JavaScript']
-
           },
           {
             name: "Camper Leaderboard",
@@ -111,7 +99,22 @@
             liveLink: 'http://exultant-bit.surge.sh/',
             static: true,
             techs: ['HTML', 'React.JS', 'Bootstrap']
-
+          },
+          {
+            name: "Wikipedia Viewer",
+            image: require('./assets/WikiViewer.png'),
+            githubLink: 'https://github.com/Bigghead/FCC-Vue/tree/master/Wikipedia-viewer',
+            liveLink: 'http://dead-lunchroom.surge.sh/',
+            static: true,
+            techs: ['HTML', 'Materialize', 'Vue.js']
+          },
+          {
+            name: "Weather App",
+            image: require('./assets/WikiViewer.png'),
+            githubLink: 'https://github.com/Bigghead/FCC-Vue/tree/master/weather-app',
+            liveLink: 'http://http://moldy-position.surge.sh/',
+            static: true,
+            techs: ['HTML', 'Materialize', 'Vue.js']
           }
 
         ]
@@ -127,6 +130,11 @@
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     border: solid 2px grey;
     margin-top: 5%;
+  }
+
+  .hello{
+    height: 400px;
+    width: 490px;
   }
   
   .port-item {
