@@ -29,6 +29,7 @@
 
               </div>
               <div id="test2" class="col s12 color2 about-mes carousel-item animated fadeInDown">Skills:
+                <br>
                 <span>Super Noob, but I like working with JavaScript to make cool things</span>
                 <br>
                 <span> I work with HTML, CSS, JavaScript (jQuery, ES6 & React/Vue.js) and Node.js.</span>
@@ -36,6 +37,7 @@
                 <span>Currently learning about React.js, but I've had experience with using Vue.js in my projects</span>
               </div>
               <div id="test3" class="col s12 color3 about-mes carousel-item animated fadeInRight">Hobbies:
+                <br>
                 <span>I like taking naps, and watching Youtube vids about food</span>
                 <br>
                 <span>Food</span>
