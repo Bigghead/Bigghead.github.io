@@ -1,5 +1,5 @@
 <template id="">
-  <div id="main">
+  <div id="portfolio">
     <div class="container center-align">
       <h3>Projects I've Done:</h3>
 
@@ -29,10 +29,14 @@
         <div class="col m6 s12 hello  " v-for='project in projects'>
           <div v-bind:class='project.scrollReveal'>
             <h4>{{ project.name }}</h3>
-            <h6> {{ project.techs }} </h5>
-            <img v-bind:src=project.image class='responsive-img'>
-            <a v-bind:href='project.githubLink' target='_blank'>Github</a><span> |</span>
-            <a v-bind:href='project.liveLink' target='_blank'>Live Example</a>
+              <h6 class='project-tech'> {{ project.techs }} </h5>
+                <div class="imgWrap">
+                  <img v-bind:src=project.image class='responsive-img'>
+                  <p class='imgDescription'>fsdkahfsadklkldshaskdjh</p>
+
+                </div>
+                <a v-bind:href='project.githubLink' target='_blank'>Github</a><span> |</span>
+                <a v-bind:href='project.liveLink' target='_blank'>Live Example</a>
           </div>
         </div>
 
@@ -76,7 +80,7 @@
             githubLink: 'https://github.com/Bigghead/fcc-nightlife',
             liveLink: 'https://calm-shelf-79440.herokuapp.com/',
             static: false,
-            techs: ['HTML', 'Bootstrap', 'Node/Express', 'Google Maps API', 'YELP API', 'EJS'],
+            techs: ['HTML', 'Bootstrap', 'Node/Express', 'Google Maps/Yelp API', 'EJS'],
             scrollReveal: 'port-item2'
           },
           {
@@ -117,7 +121,7 @@
           },
           {
             name: "Weather App",
-            image: require('./assets/WikiViewer.png'),
+            image: require('./assets/WeatherApp.png'),
             githubLink: 'https://github.com/Bigghead/FCC-Vue/tree/master/weather-app',
             liveLink: 'http://http://moldy-position.surge.sh/',
             static: true,
@@ -140,12 +144,38 @@
     margin-top: 5%;
     max-height: 275px;
   }
-
-  .hello{
+  
+  .imgWrap {
+    position: relative;
+  }
+  
+  .imgDescription {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: visibility opacity 0.2s;
+  }
+  
+  .imgWrap:hover .imgDescription {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .hello {
     width: 490px;
   }
   
   .port-item {
     transition: all 0.3 ease;
+  }
+
+  .project-tech{
+   font-family: Raleway;
   }
 </style>

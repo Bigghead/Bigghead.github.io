@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>vue-portfolio</title>
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -34,7 +35,14 @@
         maxFont: 24
       });
 
+     
 
+      $('a[href*=#]').click(function (event) {
+        $('html, body').animate({
+          scrollTop: $($.attr(this, 'href')).offset().top
+        }, 1000);
+        event.preventDefault();
+      });
     });
   </script>
   <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
@@ -44,6 +52,7 @@
     sr.reveal('.port-item2', { duration: 2000, viewFactor: 0.3 }, 100);
     sr.reveal('.port-item3', { duration: 2000, viewFactor: 0.3 }, 100);
     sr.reveal('.port-item4', { duration: 2000, viewFactor: 0.3 }, 100);
+    sr.reveal('.profilePic', { duration: 2000, viewFactor: 1 }, 100);
   </script>
 </body>
 

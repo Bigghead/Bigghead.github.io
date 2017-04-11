@@ -1,19 +1,16 @@
 <template id="">
 
   <div>
-    <div class="parallax-container">
+    <div id='about-me'class="parallax-container">
       <div class="parallax">
         <img src="https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=">
       </div>
 
       <div class="row">
 
-        <div class="col m3 s4 offset-s4 center-align">
-          <img class='responsive-img hide-on-small-only circle profilePic' src="https://avatars2.githubusercontent.com/u/19599037?v=3&u=edf107b06b4bbb2de355e46bbacc09e2798ad486&s=400"
-            alt="" />
-        </div>
+        
 
-        <div class="col m9 s12 ">
+        <div class="col m8 offset-m2 s12 ">
           <h1 class='center-align'><em>About Me</em></h1>
           <div class="row">
             <div class="col s12">
@@ -23,20 +20,18 @@
                 <li class="tab col s3"><a class="" href="#test3">Hobbies</a></li>
               </ul>
 
-              <div id="test1" class="col s12 color1 about-mes carousel-item animated fadeInLeft">
-                <span>Just a noob learning about things</span>
+              <div id="test1" class="col s12  about-mes color1 carousel-item animated fadeInLeft">
+                <span>I'm an internet/community taught aspiring web developer that likes making cool stuff with JavaScript</span>
                 <br>
 
               </div>
-              <div id="test2" class="col s12 color2 about-mes carousel-item animated fadeInDown">Skills:
+              <div id="test2" class="col s12  about-mes color2 carousel-item animated fadeInDown">Skills:
                 <br>
-                <span>Super Noob, but I like working with JavaScript to make cool things</span>
-                <br>
-                <span> I work with HTML, CSS, JavaScript (jQuery, ES6 & React/Vue.js) and Node.js.</span>
+                <span> I work with HTML, CSS, JavaScript (jQuery, ES6 ,Vue.js) and also using JavaScript on the backend with Node.js/Express/Mongoose</span>
                 <br>
                 <span>Currently learning about React.js, but I've had experience with using Vue.js in my projects</span>
               </div>
-              <div id="test3" class="col s12 color3 about-mes carousel-item animated fadeInRight">Hobbies:
+              <div id="test3" class="col s12  about-mes color3 carousel-item animated fadeInRight">Hobbies:
                 <br>
                 <span>I like taking naps, and watching Youtube vids about food</span>
                 <br>
@@ -144,7 +139,10 @@
   }
   
   .about-mes {
+    font-family: Raleway;
+    color: white;
     display: block;
+    /*background-color: transparent !important;*/
     word-wrap: break-all;
     height: 250px;
     width: 100%;
