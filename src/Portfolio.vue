@@ -58,7 +58,7 @@
             githubLink: 'https://github.com/Bigghead/fcc-stock-market',
             liveLink: 'https://cryptic-fjord-45243.herokuapp.com/',
             static: false,
-            techs: 'HTML, Materialize, Node/Express, Mongoose, Highcharts',
+            techs: 'Materialize, Node.js, Mongoose, Highcharts',
             scrollReveal: 'port-item1'
           },
           {
@@ -67,7 +67,7 @@
             githubLink: 'https://github.com/Bigghead/fccVotingApp',
             liveLink: 'https://fcc-voting-app-ver2.herokuapp.com/',
             static: false,
-            techs: 'HTMLBootstrap, Node/Express, Mongoose, Chart.JS',
+            techs: 'Bootstrap, Node.js, Mongoose, Chart.JS',
             scrollReveal: 'port-item1'
           },
           {
@@ -76,7 +76,7 @@
             githubLink: 'https://github.com/Bigghead/fcc-nightlife',
             liveLink: 'https://calm-shelf-79440.herokuapp.com/',
             static: false,
-            techs: 'HTML, Bootstrap, Node/Express, Mongoose,  Google Maps/Yelp API',
+            techs: 'Bootstrap, Node, Mongoose, Yelp API',
             scrollReveal: 'port-item2'
           },
           {
@@ -85,7 +85,7 @@
             githubLink: 'https://github.com/Bigghead/book-trading-app',
             liveLink: 'https://lychee-pie-43109.herokuapp.com/',
             static: false,
-            techs: 'HTML, Materialize, Node/Express, Mongoose',
+            techs: 'Materialize, Node/Express, Mongoose',
             scrollReveal: 'port-item2'
           },
           {
