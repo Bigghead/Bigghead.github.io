@@ -7,7 +7,7 @@
 
       <div class="row">
 
-        <div class="col s4">
+        <!--<div class="col s4">
           <button class='waves-effect waves-light btn-large red'>
             All Projects
           </button>
@@ -23,18 +23,14 @@
           <button class='waves-effect waves-light btn-large red'>
             Node.js Projects
           </button>
-        </div>
+        </div>-->
 
 
         <div class="col m6 s12 hello  " v-for='project in projects'>
           <div v-bind:class='project.scrollReveal'>
-            <h4>{{ project.name }}</h3>
-              <h6 class='project-tech'> {{ project.techs }} </h5>
-                <div class="imgWrap">
+            <h4>{{ project.name }}</h4>
+              <h6 class='project-tech'> {{ project.techs }} </h6>
                   <img v-bind:src=project.image class='responsive-img'>
-                  <p class='imgDescription'>fsdkahfsadklkldshaskdjh</p>
-
-                </div>
                 <a v-bind:href='project.githubLink' target='_blank'>Github</a><span> |</span>
                 <a v-bind:href='project.liveLink' target='_blank'>Live Example</a>
           </div>
@@ -62,7 +58,7 @@
             githubLink: 'https://github.com/Bigghead/fcc-stock-market',
             liveLink: 'https://cryptic-fjord-45243.herokuapp.com/',
             static: false,
-            techs: ['HTML', 'Materialize', 'Node/Express', 'Highcharts'],
+            techs: 'HTML, Materialize, Node/Express, Mongoose, Highcharts',
             scrollReveal: 'port-item1'
           },
           {
@@ -71,7 +67,7 @@
             githubLink: 'https://github.com/Bigghead/fccVotingApp',
             liveLink: 'https://fcc-voting-app-ver2.herokuapp.com/',
             static: false,
-            techs: ['HTML', 'Bootstrap', 'Node/Express', 'Chart.JS', 'EJS'],
+            techs: 'HTMLBootstrap, Node/Express, Mongoose, Chart.JS',
             scrollReveal: 'port-item1'
           },
           {
@@ -80,7 +76,7 @@
             githubLink: 'https://github.com/Bigghead/fcc-nightlife',
             liveLink: 'https://calm-shelf-79440.herokuapp.com/',
             static: false,
-            techs: ['HTML', 'Bootstrap', 'Node/Express', 'Google Maps/Yelp API', 'EJS'],
+            techs: 'HTML, Bootstrap, Node/Express, Mongoose,  Google Maps/Yelp API',
             scrollReveal: 'port-item2'
           },
           {
@@ -89,7 +85,7 @@
             githubLink: 'https://github.com/Bigghead/book-trading-app',
             liveLink: 'https://lychee-pie-43109.herokuapp.com/',
             static: false,
-            techs: ['HTML', 'Materialize', 'Node/Express', 'EJS'],
+            techs: 'HTML, Materialize, Node/Express, Mongoose',
             scrollReveal: 'port-item2'
           },
           {
@@ -98,7 +94,7 @@
             githubLink: 'https://github.com/Bigghead/Momentum-Clone',
             liveLink: 'http://rawgit.com/Bigghead/Momentum-Clone/master/index.html',
             static: true,
-            techs: ['HTML', 'CSS', 'JavaScript'],
+            techs: 'HTML, CSS, JavaScript',
             scrollReveal: 'port-item3'
           },
           {
@@ -107,7 +103,7 @@
             githubLink: 'https://github.com/Bigghead/Camper-Leaderboard',
             liveLink: 'http://exultant-bit.surge.sh/',
             static: true,
-            techs: ['HTML', 'React.JS', 'Bootstrap'],
+            techs: 'HTML, Bootstrap, React.js',
             scrollReveal: 'port-item3'
           },
           {
@@ -116,7 +112,7 @@
             githubLink: 'https://github.com/Bigghead/FCC-Vue/tree/master/Wikipedia-viewer',
             liveLink: 'http://dead-lunchroom.surge.sh/',
             static: true,
-            techs: ['HTML', 'Materialize', 'Vue.js'],
+            techs: 'HTML, Materialize, Vue.js',
             scrollReveal: 'port-item4'
           },
           {
@@ -125,7 +121,7 @@
             githubLink: 'https://github.com/Bigghead/FCC-Vue/tree/master/weather-app',
             liveLink: 'http://http://moldy-position.surge.sh/',
             static: true,
-            techs: ['HTML', 'Materialize', 'Vue.js'],
+            techs: 'HTML, Materialize, Vue.js',
             scrollReveal: 'port-item4'
           }
 
@@ -145,27 +141,7 @@
     max-height: 275px;
   }
   
-  .imgWrap {
-    position: relative;
-  }
   
-  .imgDescription {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(29, 106, 154, 0.72);
-    color: black;
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: visibility opacity 0.2s;
-  }
-  
-  .imgWrap:hover .imgDescription {
-    visibility: visible;
-    opacity: 1;
-  }
   
   .hello {
     width: 490px;

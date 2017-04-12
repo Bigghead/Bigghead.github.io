@@ -21,15 +21,16 @@
               </ul>
 
               <div id="test1" class="col s12  about-mes color1 carousel-item animated fadeInLeft">
-                <span>I'm an internet/community taught aspiring web developer that likes making cool stuff with JavaScript</span>
+                <span>I'm an internet/community taught aspiring web developer that likes making cool things with JavaScript</span>
                 <br>
 
               </div>
-              <div id="test2" class="col s12  about-mes color2 carousel-item animated fadeInDown">Skills:
+              <div id="test2" class="col s12  about-mes color2 carousel-item animated fadeInDown">
                 <br>
-                <span> I work with HTML, CSS, JavaScript (jQuery, ES6 ,Vue.js) and also using JavaScript on the backend with Node.js/Express/Mongoose</span>
+                <span> I work with HTML, CSS, JavaScript (jQuery ,Vue.js) and also using JavaScript on the backend with Node.js/Express/Mongoose</span>
                 <br>
-                <span>Currently learning about React.js, but I've had experience with using Vue.js in my projects</span>
+                <br>
+                <span>Currently learning about React.js</span>
               </div>
               <div id="test3" class="col s12  about-mes color3 carousel-item animated fadeInRight">Hobbies:
                 <br>
