@@ -22,16 +22,16 @@
 
 <style media="screen">
 .pageone{
-background :url("https://images.unsplash.com/photo-1475198751283-d3f5d231c7f4?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1000&amp;q=80&amp;cs=tinysrgb&amp;crop=");
-background-size: cover;
-height: 100%;
-background-attachment:fixed;
-background-position:fixed;
+  background :url("https://images.unsplash.com/photo-1475198751283-d3f5d231c7f4?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1000&amp;q=80&amp;cs=tinysrgb&amp;crop=");
+  background-size: cover;
+  height: 100%;
+  background-attachment:fixed;
+  background-position:fixed;
 }
 .box{
-padding:20%;
-margin:auto;
-color: white;
+  padding:20%;
+  margin:auto;
+  color: white;
 }
 
 /*@media screen 
