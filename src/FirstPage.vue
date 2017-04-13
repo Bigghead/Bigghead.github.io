@@ -24,7 +24,7 @@
 .pageone{
 background :url("https://images.unsplash.com/photo-1475198751283-d3f5d231c7f4?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1000&amp;q=80&amp;cs=tinysrgb&amp;crop=");
 background-size: cover;
-height: auto;
+height: 100%;
 background-attachment:fixed;
 background-position:fixed;
 }
@@ -33,4 +33,14 @@ padding:20%;
 margin:auto;
 color: white;
 }
+
+/*@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .pageone{
+      height: 770px;
+    }
+}*/
+
 </style>

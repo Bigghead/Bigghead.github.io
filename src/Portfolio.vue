@@ -26,7 +26,7 @@
         </div>-->
 
 
-        <div class="col m6 s12 hello  " v-for='project in projects'>
+        <div class="col l6 m8 offset-m2 s12 hello  " v-for='project in projects'>
           <div v-bind:class='project.scrollReveal'>
             <h4>{{ project.name }}</h4>
               <h6 class='project-tech'> {{ project.techs }} </h6>
