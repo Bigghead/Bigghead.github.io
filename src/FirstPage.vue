@@ -28,6 +28,7 @@
     background-attachment: fixed;
     background-position: fixed;
     position: relative;
+    transition: height 999999s;
   }
 
   .wrapper{
