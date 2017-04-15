@@ -1,8 +1,7 @@
 <template id="">
-  <div class ="pageone">
-     <div class ='center-align'>
+  <div class ="pageone center-align">
 
-       <div class='box'>
+       <div class='box '>
         <h1>Shav D. Parta</h1>
         <h4>Story Of A Noob</h4>
         
@@ -11,7 +10,6 @@
         <a class ='waves-effect waves-light btn' href='https://github.com/Bigghead'>Github</a>
         <a class ="waves-effect waves-light btn" href='https://codepen.io/Bigghead/pens/public/'>Codepen</a>
        </div>
-     </div>
      </div>
    </div>
 </template>
@@ -24,13 +22,17 @@
 .pageone{
   background :url("https://images.unsplash.com/photo-1475198751283-d3f5d231c7f4?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1000&amp;q=80&amp;cs=tinysrgb&amp;crop=");
   background-size: cover;
-  height: 100%;
+  height: 100vh;
   background-attachment:fixed;
   background-position:fixed;
+    position: relative;
+
 }
 .box{
-  padding:20%;
-  margin:auto;
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
 }
 

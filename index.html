@@ -18,7 +18,9 @@
   <script src="https://fastcdn.org/FlowType.JS/1.1/flowtype.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-  <script src="./dist/build.js"></script>
+  <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+
+  <!--<script src="/dist/build.js"></script>-->
   <script type='text/javascript'>
     $(document).ready(function () {
       $('.parallax').parallax();
@@ -31,10 +33,10 @@
       $('.about-mes').flowtype({
         minimum: 500,
         maximum: 1200,
-        minFont: 12,
+        minFont: 16,
         maxFont: 24
       });
-     
+
       $('a[href*=#]').click(function (event) {
         $('html, body').animate({
           scrollTop: $($.attr(this, 'href')).offset().top
@@ -43,9 +45,10 @@
       });
     });
   </script>
-  <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
   <script type='text/javascript'>
     window.sr = ScrollReveal();
+        sr.reveal('.box', { duration: 2000, viewFactor: 0.3 }, 100);
+
     sr.reveal('.port-item1', { duration: 2000, viewFactor: 0.3 }, 100);
     sr.reveal('.port-item2', { duration: 2000, viewFactor: 0.3 }, 100);
     sr.reveal('.port-item3', { duration: 2000, viewFactor: 0.3 }, 100);
