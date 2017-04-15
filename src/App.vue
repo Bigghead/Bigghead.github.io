@@ -25,6 +25,8 @@ export default {
 <style>
 body{
   font-family: 'Lobster';
+      background-color: #f9ebe0;
+
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

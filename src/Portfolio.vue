@@ -7,25 +7,6 @@
 
       <div class="row">
 
-        <!--<div class="col s4">
-          <button class='waves-effect waves-light btn-large red'>
-            All Projects
-          </button>
-        </div>
-
-        <div class="col s4">
-          <button class='waves-effect waves-light btn-large red'>
-            Static Projects
-          </button>
-        </div>
-
-        <div class="col s4">
-          <button class='waves-effect waves-light btn-large red'>
-            Node.js Projects
-          </button>
-        </div>-->
-
-
         <div class="col l6 m8 offset-m2 s12 hello  " v-for='project in projects'>
           <div v-bind:class='project.scrollReveal'>
             <h4>{{ project.name }}</h4>
@@ -133,6 +114,8 @@
 </script>
 
 <style media="screen" scoped>
+
+ 
   img {
     width: 100%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
@@ -140,8 +123,6 @@
     margin-top: 5%;
     max-height: 275px;
   }
-  
-  
   
   .hello {
     width: 490px;
