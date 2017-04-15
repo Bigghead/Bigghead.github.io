@@ -1,7 +1,7 @@
 <template id="">
   <div class="pageone center-align">
-    <div class="wrapper animated rollIn">
-      <div class='box '>
+    <div class="wrapper " >
+      <div class='box ' >
         <h1>Shav D. Parta</h1>
         <h4>Story Of A Noob</h4>
 
@@ -22,7 +22,8 @@
 
 <style media="screen">
   .pageone {
-    background: url("https://images.unsplash.com/photo-1475198751283-d3f5d231c7f4?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1000&amp;q=80&amp;cs=tinysrgb&amp;crop=");
+    /*background: url("https://images.unsplash.com/photo-1475198751283-d3f5d231c7f4?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1000&amp;q=80&amp;cs=tinysrgb&amp;crop=");*/
+    background: url('./assets/firstPage.jpeg');
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
@@ -34,6 +35,11 @@
   .wrapper{
     width: 100%;
     height: 100%;
+    visibility: hidden;
+  }
+
+  .show{
+    visibility: visible;
   }
   
   .box {

@@ -22,7 +22,10 @@
   <!--<script src="/dist/build.js"></script>-->
   <script type='text/javascript'>
     $(document).ready(function () {
-
+      $(window).load(function () {
+        // all images loaded
+        $('.wrapper').addClass('animated rollIn show')
+      });
       $('.parallax').parallax();
       $('ul.tabs').tabs('select_tab', 'tab_id',
         {
@@ -51,7 +54,7 @@
       sr.reveal('.port-item4', { duration: 2000, viewFactor: 0.3 }, 100);
     });
   </script>
-  
+
 </body>
 
 </html>
