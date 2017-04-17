@@ -32,13 +32,12 @@
                 <br>
                 <span>Currently learning about React.js</span>
               </div>
-              <div id="test3" class="col s12  about-mes color3 carousel-item animated fadeInRight">Hobbies:
+              <div id="test3" class="col s12  about-mes color3 carousel-item animated fadeInRight">
                 <br>
-                <span>I like taking naps, and watching Youtube vids about food</span>
+                <span>Going to random meetups in my area</span>
                 <br>
-                <span>Food</span>
+                <span>JS tutorials on YouTube</span>
                 <br>
-                <span>I want to play around with Phaser.io</span>
               </div>
             </div>
 
