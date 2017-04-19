@@ -7,7 +7,7 @@
       <li><a href="#a">Home</a></li>
       <li><a href="#about-me">About</a></li>
       <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#a">Contact Me</a></li>
+      <li><a href="#contact-me">Contact Me</a></li>
     </ul>
   </div>
 </nav>
