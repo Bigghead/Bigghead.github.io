@@ -52,13 +52,7 @@
 
     <port-page></port-page>
 
-    <div class="section black">
-      <div class="row container grey-text">
-        <h2 class="header " v-on:click='changeMessage'>{{ message }} + Stuff</h2>
-        <p class=" text-lighten-1">Too much parallax?</p>
-        <p class=" text-lighten-1">Definitely too much parallax. Looks very cool though</p>
-      </div>
-    </div>
+   
 
     <div class="parallax-container">
       <div class="parallax">

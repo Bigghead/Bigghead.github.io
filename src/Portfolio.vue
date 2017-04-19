@@ -1,6 +1,6 @@
 <template id="">
-  <div id="portfolio">
-    <div class="container center-align">
+  <div id="portfolio" class='container section'>
+    <div class=" center-align">
       <h3>Projects I've Done:</h3>
 
 
@@ -82,7 +82,7 @@
             name: "Camper Leaderboard",
             image: require('./assets/CamperLeaderboard.png'),
             githubLink: 'https://github.com/Bigghead/Camper-Leaderboard',
-            liveLink: 'http://exultant-bit.surge.sh/',
+            liveLink: 'http://lavish-lunch.surge.sh/',
             static: true,
             techs: 'HTML, Bootstrap, React.js',
             scrollReveal: 'port-item3'
@@ -91,7 +91,7 @@
             name: "Wikipedia Viewer",
             image: require('./assets/WikiViewer.png'),
             githubLink: 'https://github.com/Bigghead/FCC-Vue/tree/master/Wikipedia-viewer',
-            liveLink: 'http://dead-lunchroom.surge.sh/',
+            liveLink: 'http://cloistered-good-bye.surge.sh/',
             static: true,
             techs: 'HTML, Materialize, Vue.js',
             scrollReveal: 'port-item4'
@@ -100,7 +100,7 @@
             name: "Weather App",
             image: require('./assets/WeatherApp.png'),
             githubLink: 'https://github.com/Bigghead/FCC-Vue/tree/master/weather-app',
-            liveLink: 'http://http://moldy-position.surge.sh/',
+            liveLink: 'http://zippy-roof.surge.sh/',
             static: true,
             techs: 'HTML, Materialize, Vue.js',
             scrollReveal: 'port-item4'
