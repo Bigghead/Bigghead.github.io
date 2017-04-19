@@ -97,7 +97,7 @@
 
 <style media="screen">
   .parallax-container {
-    height: 70vh;
+    height: 600px;
   }
   
   .page2 {
