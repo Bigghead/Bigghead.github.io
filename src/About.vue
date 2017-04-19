@@ -1,14 +1,14 @@
 <template id="">
 
   <div>
-    <div id='about-me'class="parallax-container">
+    <div id='about-me' class="parallax-container">
       <div class="parallax">
         <img src="https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=">
       </div>
 
       <div class="row">
 
-        
+
 
         <div class="col m8 offset-m2 s12 ">
           <h1 class='center-align'><em>About Me</em></h1>
@@ -52,12 +52,25 @@
 
     <port-page></port-page>
 
-   
 
-    <div class="parallax-container">
+
+    <div class="parallax-container contact-icons">
       <div class="parallax">
         <img src="https://images.unsplash.com/photo-1482398650355-d4c6462afa0e?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=">
       </div>
+      <div class="fa-fonts">
+      <a href="">
+        <i class="fa fa-github-alt fa-5x" aria-hidden="true"></i>
+      </a>
+       <a href="">
+        <i class="fa-contact fa fa-codepen fa-5x" aria-hidden="true"></i>
+      </a>
+      <a href="mailto:shavenchew@yahoo.com">
+        <i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+      </a>
+
+      </div>
+      
     </div>
   </div>
 </template>
@@ -83,6 +96,10 @@
 </script>
 
 <style media="screen">
+  .parallax-container {
+    height: 70vh;
+  }
+  
   .page2 {
     background-color: black;
     background: url("https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=");
@@ -95,7 +112,7 @@
   }
   
   h1 {
-    margin-top: 0;
+    margin-top: 50px!important;
     color: white;
   }
   
@@ -143,5 +160,29 @@
     height: 250px;
     width: 100%;
     font-size: 24px;
+  }
+  
+  .contact-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .fa-fonts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin:auto;
+  }
+
+  .fa{
+    color: steelblue;
+    transition: 0.33s all ease-in;
+  }
+
+  .fa:hover{
+    color: white;
   }
 </style>
