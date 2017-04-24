@@ -121,7 +121,6 @@
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     border: solid 2px grey;
     margin-top: 5%;
-    max-height: 275px;
   }
   
   .hello {

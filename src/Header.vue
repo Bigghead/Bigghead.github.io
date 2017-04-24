@@ -1,16 +1,18 @@
 <template id="">
 
   <nav>
-  <div class="nav-wrapper">
-    <a href="#" class="brand-logo left">Portfolio Page</a>
-    <ul id="nav-mobile" class="right hide-on-small-only">
-      <li><a href="#a">Home</a></li>
-      <li><a href="#about-me">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact-me">Contact Me</a></li>
-    </ul>
-  </div>
-</nav>
+    <div class="nav-wrapper">
+      <div class="brand-logo center">
+        <ul id="nav-mobile" class="center-align hide-on-small-only">
+          <li><a href="#a">Home</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
 </template>
 
 <script type="text/javascript">
