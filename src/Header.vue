@@ -1,5 +1,4 @@
 <template id="">
-<div class="navbar-fixed">
 
   <nav>
     <div class="nav-wrapper">
@@ -21,7 +20,6 @@
         </ul>
     </div>
   </nav>
-</div>
 </template>
 
 <script type="text/javascript">
