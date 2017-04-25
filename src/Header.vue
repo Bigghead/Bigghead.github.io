@@ -5,7 +5,7 @@
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <div class="brand-logo center">
 
-        <ul id="nav-mobile" class="center-align hide-on-small-only">
+        <ul id="nav-mobile" class="center-align hide-on-small-only top-nav">
           <li><a href="#a">Home</a></li>
           <li><a href="#about-me">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
@@ -27,7 +27,7 @@
 </script>
 
 <style scoped>
-  ul{
+  .top-nav{
     visibility: hidden;
   }
 

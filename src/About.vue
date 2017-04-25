@@ -20,25 +20,25 @@
                 <li class="tab col s3"><a class="" href="#test3">Hobbies</a></li>
               </ul>
 
-              <div id="test1" class="col s12  about-mes color1 carousel-item animated fadeInLeft">
+              <div id="test1" class="col s12  about-mes color1  animated fadeInLeft">
                 <br>
-                <span>I'm an internet/community taught aspiring web developer that likes making cool things with JavaScript</span>
+                <span>I'm an internet/community taught aspiring web developer who likes making cool things with JavaScript</span>
                 <br>
 
               </div>
-              <div id="test2" class="col s12  about-mes color2 carousel-item animated fadeInDown">
+              <div id="test2" class="col s12  about-mes color2  animated fadeInUp">
                 <br>
                 <span> I work with HTML, CSS, JavaScript (jQuery ,Vue.js) and have also used JavaScript on the backend with Node.js/Express/Mongoose</span>
                 <br>
                 <br>
                 <span>Currently learning about React.js</span>
               </div>
-              <div id="test3" class="col s12  about-mes color3 carousel-item animated fadeInRight">
+              <div id="test3" class="col s12  about-mes color3  animated fadeInRight">
                 <br>
                 <span>Going to random meetups in my area</span>
                 <br>
                 <br>
-                <span>JS tutorials on YouTube</span>
+                <span>Watching random tutorials on YouTube</span>
                 <br>
               </div>
             </div>
@@ -103,29 +103,30 @@
   }
   
   .color2 {
-    background: #4568DC;
+    background: rgba(69,104,220, 0.5) !important;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /*background: -webkit-linear-gradient(to right, rgba(176,106,179, .5), rgba(69,104,220, 0.5));*/
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #B06AB3, #4568DC);
+    /*background: linear-gradient(to right, rgba(176,106,179, .5), rgba(69,104,220, 0.5));*/
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
+
   
   .color3 {
-    background: #314755;
+    background: rgba(241, 55, 55, 0.6)!important;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #314755, #26a0da);
+    /*background: -webkit-linear-gradient(to left, rgba(49,71,85, 0.5), rgba(38,160,218, 0.5));*/
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #314755, #26a0da);
+    /*background: linear-gradient(to left, rgba(49,71,85, 0.5), rgba(38,160,218, 0.5));*/
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   
   .color1 {
-    background: #348F50;
+    background: rgba(0, 148, 131, 0.5) !important;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #348F50, #56B4D3);
+    /*background: -webkit-linear-gradient(to left, #348F50, #56B4D3);*/
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #348F50, #56B4D3);
+    /*background: linear-gradient(to left, #348F50, #56B4D3);*/
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   
