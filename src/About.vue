@@ -14,13 +14,13 @@
           <h1 class='center-align'><em>About Me</em></h1>
           <div class="row">
             <div class="col s12">
-              <ul class="tabs ">
+              <ul class="tabs tabs-fixed-width">
                 <li class="tab col s3"><a href="#test1">Who Am I??</a></li>
                 <li class="tab col s3"><a href="#test2">Skills</a></li>
                 <li class="tab col s3"><a class="" href="#test3">Hobbies</a></li>
               </ul>
 
-              <div id="test1" class="col s12  about-mes color1  animated fadeInLeft">
+              <div id="test1" class="col s12  about-mes color2  animated fadeInLeft">
                 <br>
                 <span>I'm an internet/community taught aspiring web developer who likes making cool things with JavaScript</span>
                 <br>
@@ -33,7 +33,7 @@
                 <br>
                 <span>Currently learning about React.js</span>
               </div>
-              <div id="test3" class="col s12  about-mes color3  animated fadeInRight">
+              <div id="test3" class="col s12  about-mes color2  animated fadeInRight">
                 <br>
                 <span>Going to random meetups in my area</span>
                 <br>
@@ -101,9 +101,22 @@
   img {
     display: inline;
   }
+
+  .tabs .tab a.active {
+  color: #663399;
+}
+
+.tabs .tab a:hover {
+  color: #DDA0DD;
+}
+
+.tabs .tab a {
+  color: #663399;
+}
   
   .color2 {
-    background: rgba(69,104,220, 0.5) !important;
+    background: rgba(0, 0, 0, 0.7) !important;
+    /*background: rgba(69,104,220, 0.5) !important;*/
     /* fallback for old browsers */
     /*background: -webkit-linear-gradient(to right, rgba(176,106,179, .5), rgba(69,104,220, 0.5));*/
     /* Chrome 10-25, Safari 5.1-6 */
@@ -138,6 +151,7 @@
     font-family: Raleway;
     color: white;
     display: block;
+    padding: 0 20px !important;
     /*background-color: transparent !important;*/
     word-wrap: break-all;
     height: 250px;
