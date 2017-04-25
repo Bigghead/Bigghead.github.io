@@ -160,11 +160,11 @@
   }
 
   .fa{
-    color: steelblue;
+    color: white;
     transition: 0.33s all ease-in;
   }
 
   .fa:hover{
-    color: white;
+    color: steelblue;
   }
 </style>
