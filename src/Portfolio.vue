@@ -1,7 +1,7 @@
 <template id="">
   <div id="portfolio" class='container section'>
     <div class=" center-align">
-      <h3>Projects I've Done:</h3>
+      <h2>Projects I've Done:</h2>
 
 
 
@@ -127,6 +127,10 @@
     width: 490px;
     margin-top: 40px;
   }
+
+ h2{
+   font-family: 'Lobster';
+ }
   
   .port-item {
     transition: all 0.3 ease;

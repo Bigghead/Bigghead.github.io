@@ -24,7 +24,7 @@ export default {
 
 <style>
 body{
-  font-family: 'Lobster';
+  font-family: 'Roboto';
       background-color: #f9ebe0;
 
 }

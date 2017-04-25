@@ -1,7 +1,7 @@
 <template id="">
 
   <nav>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper deep-purple lighten-1">
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <div class="brand-logo center">
 

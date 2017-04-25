@@ -19,7 +19,7 @@
 
 </script>
 
-<style media="screen">
+<style media="screen" scoped>
   .pageone {
     /*background: url("https://images.unsplash.com/photo-1475198751283-d3f5d231c7f4?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1000&amp;q=80&amp;cs=tinysrgb&amp;crop=");*/
     background: url('./assets/firstPage.jpg');
@@ -29,6 +29,10 @@
     background-position: fixed;
     position: relative;
     transition: height 999999s;
+  }
+
+  h1{
+    font-family: 'Lobster';
   }
 
   .wrapper{

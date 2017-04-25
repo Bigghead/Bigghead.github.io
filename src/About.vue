@@ -11,7 +11,7 @@
 
 
         <div class="col m8 offset-m2 s12 ">
-          <h1 class='center-align'><em>About Me</em></h1>
+          <h1 class='center-align about-text'><em>About Me</em></h1>
           <div class="row">
             <div class="col s12">
               <ul class="tabs tabs-fixed-width">
@@ -91,6 +91,10 @@
   
   .profilePic {
     margin-top: 20%;
+  }
+
+  .about-text{
+    font-family: 'Lobster';
   }
   
   h1 {
