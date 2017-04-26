@@ -129,7 +129,7 @@
   }
 
  h2{
-   font-family: 'Lobster';
+   font-family: 'Secular One';
  }
   
   .port-item {

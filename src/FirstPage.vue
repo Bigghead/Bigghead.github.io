@@ -6,8 +6,8 @@
 
 
         <div class='btn-list'>
-          <a class='waves-effect waves-light btn' target='_blank' href='https://github.com/Bigghead'>Github</a>
-          <a class="waves-effect waves-light btn" target='_blank' href='https://codepen.io/Bigghead/pens/public/'>Codepen</a>
+          <a class='waves-effect waves-light btn indigo lighten-1' target='_blank' href='https://github.com/Bigghead'>Github</a>
+          <a class="waves-effect waves-light btn indigo lighten-1" target='_blank' href='https://codepen.io/Bigghead/pens/public/'>Codepen</a>
         </div>
       </div>
 
@@ -32,7 +32,7 @@
   }
 
   h1{
-    font-family: 'Lobster';
+    font-family: 'Secular One';
   }
 
   .wrapper{

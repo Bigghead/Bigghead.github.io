@@ -94,7 +94,7 @@
   }
 
   .about-text{
-    font-family: 'Lobster';
+    font-family: 'Secular One';
   }
   
   h1 {

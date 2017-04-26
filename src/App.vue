@@ -24,8 +24,9 @@ export default {
 
 <style>
 body{
-  font-family: 'Roboto';
-      background-color: #f9ebe0;
+      font-family: 'Roboto';
+      /*background-color: #f9ebe0;*/
+      background-color: rgba(255, 255, 255, 0.3);
 
 }
 #app {
