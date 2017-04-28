@@ -1,13 +1,17 @@
 <template id="">
   <div class="pageone center-align">
-    <div class="wrapper " >
-      <div class='box ' >
+    <div class="wrapper ">
+      <div class='box '>
         <h1>Shav D. Parta</h1>
 
 
         <div class='btn-list'>
-          <a class='waves-effect waves-light btn indigo lighten-1' target='_blank' href='https://github.com/Bigghead'>Github</a>
-          <a class="waves-effect waves-light btn indigo lighten-1" target='_blank' href='https://codepen.io/Bigghead/pens/public/'>Codepen</a>
+          <div class="row">
+              <a class='col s5 offset-s1 waves-effect waves-light btn indigo lighten-1' target='_blank' href='https://github.com/Bigghead'>Github</a>
+            
+              <a class="col s5 offset-s1  waves-effect waves-light btn indigo lighten-1" target='_blank' href='https://codepen.io/Bigghead/pens/public/'>Codepen</a>
+            
+          </div>
         </div>
       </div>
 
@@ -30,18 +34,18 @@
     position: relative;
     transition: height 999999s;
   }
-
-  h1{
+  
+  h1 {
     font-family: 'Secular One';
   }
-
-  .wrapper{
+  
+  .wrapper {
     width: 100%;
     height: 100%;
     visibility: hidden;
   }
-
-  .show{
+  
+  .show {
     visibility: visible;
   }
   
@@ -52,6 +56,8 @@
     transform: translate(-50%, -50%) !important;
     color: white;
   }
+
+  
   /*@media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 

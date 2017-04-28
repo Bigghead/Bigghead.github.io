@@ -70,6 +70,15 @@
             scrollReveal: 'port-item2'
           },
           {
+            name: "Pinterest Clone",
+            image: require('./assets/PinterestClone.png'),
+            githubLink: 'https://github.com/Bigghead/Pinterest-Clone',
+            liveLink: 'https://blooming-everglades-99212.herokuapp.com/',
+            static: false,
+            techs: 'Node/Express, Mongoose, Vue.js',
+            scrollReveal: 'port-item3'
+          },
+          {
             name: "Momentum Clone",
             image: require('./assets/Momentum.png'),
             githubLink: 'https://github.com/Bigghead/Momentum-Clone',
@@ -85,7 +94,7 @@
             liveLink: 'http://lavish-lunch.surge.sh/',
             static: true,
             techs: 'HTML, Bootstrap, React.js',
-            scrollReveal: 'port-item3'
+            scrollReveal: 'port-item4'
           },
           {
             name: "Wikipedia Viewer",
@@ -103,7 +112,7 @@
             liveLink: 'http://zippy-roof.surge.sh/',
             static: true,
             techs: 'HTML, Materialize, Vue.js',
-            scrollReveal: 'port-item4'
+            scrollReveal: 'port-item5'
           }
 
         ]

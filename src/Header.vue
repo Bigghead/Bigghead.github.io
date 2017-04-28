@@ -27,6 +27,11 @@
 </script>
 
 <style scoped>
+
+  nav{
+    height: 50px;
+    line-height: 50px;
+  }
   .top-nav{
     visibility: hidden;
   }
