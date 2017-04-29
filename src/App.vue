@@ -29,7 +29,7 @@ body{
       /*background-color: rgba(255, 255, 255, 0.3);*/
 
 }
-#app {
+/*#app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -54,5 +54,5 @@ a {
 p{
   color:#00FFFF;
  font-size:2em;
-}
+}*/
 </style>
