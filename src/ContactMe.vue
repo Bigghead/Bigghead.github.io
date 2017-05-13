@@ -1,7 +1,8 @@
 <template>
     <div class="parallax-container contact-icons" id='contact-me'>
       <div class="parallax">
-        <img src="https://images.unsplash.com/photo-1482398650355-d4c6462afa0e?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=">
+        <!--<img src="https://images.unsplash.com/photo-1482398650355-d4c6462afa0e?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=">-->
+        <img src="./assets/ThirdPage.jpg" alt="">
       </div>
       <div class="fa-fonts">
       <a href="https://github.com/Bigghead" target='_blank'>
