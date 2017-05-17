@@ -29,10 +29,10 @@
               </div>
               <div id="test2" class="col s12  about-mes color2  animated fadeInUp">
                 <br>
-                <span> I work with HTML, CSS, JavaScript (jQuery ,Vue.js) and have also used JavaScript on the backend with Node.js/Express/Mongoose</span>
+                <span> I work with HTML, CSS, JavaScript (jQuery ,Vue.js, minor React.js) and have also used JavaScript on the backend with Node.js/Express/Mongoose</span>
                 <br>
                 <br>
-                <span>Currently learning about React.js</span>
+                <span>Currently learning about Angular</span>
               </div>
               <div id="test3" class="col s12  about-mes color2  animated fadeInRight">
                 <br>
