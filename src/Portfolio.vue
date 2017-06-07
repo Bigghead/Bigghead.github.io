@@ -13,7 +13,7 @@
               <h6 class='project-tech'> {{ project.techs }} </h6>
                   <img v-bind:src=project.image class='responsive-img'>
                 <a v-bind:href='project.githubLink' target='_blank'>Github</a><span> |</span>
-                <a v-bind:href='project.liveLink' target='_blank'>Live Example</a>
+                <a v-bind:href='project.liveLink' target='_blank'>Live</a>
           </div>
         </div>
 
@@ -52,7 +52,7 @@
             scrollReveal: 'port-item1'
           },
           {
-            name: "Night-Life Coordination",
+            name: "Night-Life Outing",
             image: require('./assets/NightLife.png'),
             githubLink: 'https://github.com/Bigghead/fcc-nightlife',
             liveLink: 'https://calm-shelf-79440.herokuapp.com/',
