@@ -32,7 +32,7 @@
                 <span> I work with HTML, CSS, JavaScript (jQuery ,Vue.js, minor React.js) and have also used JavaScript on the backend with Node.js/Express/Mongoose</span>
                 <br>
                 <br>
-                <span>Currently learning about Angular</span>
+                <span>Currently in love with Angular</span>
               </div>
               <div id="test3" class="col s12  about-mes color2  animated fadeInRight">
                 <br>

@@ -13,7 +13,7 @@
               <h6 class='project-tech'> {{ project.techs }} </h6>
                   <img v-bind:src=project.image class='responsive-img'>
                 <a v-bind:href='project.githubLink' target='_blank'>Github</a><span> |</span>
-                <a v-bind:href='project.liveLink' target='_blank'>Live</a>
+                <a v-bind:href='project.liveLink' target='_blank'>Demo</a>
           </div>
         </div>
 
@@ -32,7 +32,15 @@
       return {
         show: true,
         projects: [
-
+           {
+            name: "Netflix Clone",
+            image: require('./assets/NoobFlix-min.jpeg'),
+            githubLink: 'https://github.com/Bigghead/Netflix-Clone-2.0',
+            liveLink: 'https://morning-retreat-68692.herokuapp.com/',
+            static: false,
+            techs: 'Node.js, Mongoose, Angular 4',
+            scrollReveal: 'port-item1'
+          },
           {
             name: "Stock Market Charting",
             image: require('./assets/StockChart.png'),
@@ -49,7 +57,7 @@
             liveLink: 'https://fcc-voting-app-ver2.herokuapp.com/',
             static: false,
             techs: 'Bootstrap, Node.js, Mongoose, Chart.JS',
-            scrollReveal: 'port-item1'
+            scrollReveal: 'port-item2'
           },
           {
             name: "Night-Life Outing",
@@ -67,7 +75,7 @@
             liveLink: 'https://lychee-pie-43109.herokuapp.com/',
             static: false,
             techs: 'Materialize, Node/Express, Mongoose',
-            scrollReveal: 'port-item2'
+            scrollReveal: 'port-item3'
           },
           {
             name: "Pinterest Clone",
@@ -85,7 +93,7 @@
             liveLink: 'http://rawgit.com/Bigghead/Momentum-Clone/master/index.html',
             static: true,
             techs: 'HTML, CSS, JavaScript',
-            scrollReveal: 'port-item3'
+            scrollReveal: 'port-item4'
           },
           {
             name: "Camper Leaderboard",
@@ -103,7 +111,7 @@
             liveLink: 'http://cloistered-good-bye.surge.sh/',
             static: true,
             techs: 'HTML, Materialize, Vue.js',
-            scrollReveal: 'port-item4'
+            scrollReveal: 'port-item5'
           },
           {
             name: "Weather App",
@@ -147,5 +155,6 @@
 
   .project-tech{
    font-family: Raleway;
+   font-size: 16px;
   }
 </style>
