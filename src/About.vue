@@ -25,6 +25,8 @@
                 <br>
                 <span>I'm an internet/community taught aspiring web developer who likes making cool things with JavaScript</span>
                 <br>
+                <br>
+                <span>I specialize in using the MEAN stack to build full stack applications. Check out some of my projects below</span>
 
               </div>
               <div id="test2" class="col s12  about-mes color2  animated fadeInUp">
