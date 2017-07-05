@@ -119,6 +119,7 @@
 
 .tabs .tab a {
   color: #663399;
+  font-size: 16px;
 }
   
   .color2 {
@@ -188,5 +189,17 @@
 
   .fa:hover{
     color: steelblue;
+  }
+
+   @media(max-width: 600px){
+    .tabs .tab a{
+      font-size: 14px;
+    }
+  }
+
+  @media(max-width: 500px){
+    .tabs .tab a{
+      font-size: 12px;
+    }
   }
 </style>

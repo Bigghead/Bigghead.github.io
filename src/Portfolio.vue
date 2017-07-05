@@ -157,4 +157,20 @@
    font-family: Raleway;
    font-size: 16px;
   }
+
+  a{
+    font-size: 18px;
+  }
+
+   @media(max-width: 600px){
+    a{
+      font-size: 16px;
+    }
+  }
+
+  @media(max-width: 500px){
+    a{
+      font-size: 14px;
+    }
+  }
 </style>
