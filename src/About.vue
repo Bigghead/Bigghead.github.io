@@ -41,6 +41,8 @@
                 <span>Going to random meetups in my area</span>
                 <br>
                 <br>
+                <span>Building new projects</span>
+                <br><br>
                 <span>Watching random tutorials on YouTube</span>
                 <br>
               </div>

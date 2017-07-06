@@ -38,7 +38,16 @@
             githubLink: 'https://github.com/Bigghead/Netflix-Clone-2.0',
             liveLink: 'https://morning-retreat-68692.herokuapp.com/',
             static: false,
-            techs: 'Node.js, Mongoose, Angular 4',
+            techs: 'Node.js, Mongoose, Angular',
+            scrollReveal: 'port-item1'
+          },
+           {
+            name: "Spotify Clone",
+            image: require('./assets/SpotifyClonePlaylist.jpg'),
+            githubLink: 'https://github.com/Bigghead/Spotify-Clone',
+            liveLink: 'http://discreet-cart.surge.sh/',
+            static: false,
+            techs: 'Angular (Need Spotify Account To Use)',
             scrollReveal: 'port-item1'
           },
           {
@@ -48,7 +57,7 @@
             liveLink: 'https://cryptic-fjord-45243.herokuapp.com/',
             static: false,
             techs: 'Materialize, Node.js, Mongoose, Highcharts',
-            scrollReveal: 'port-item1'
+            scrollReveal: 'port-item2'
           },
           {
             name: "Voting App",
@@ -57,15 +66,6 @@
             liveLink: 'https://fcc-voting-app-ver2.herokuapp.com/',
             static: false,
             techs: 'Bootstrap, Node.js, Mongoose, Chart.JS',
-            scrollReveal: 'port-item2'
-          },
-          {
-            name: "Night-Life Outing",
-            image: require('./assets/NightLife.png'),
-            githubLink: 'https://github.com/Bigghead/fcc-nightlife',
-            liveLink: 'https://calm-shelf-79440.herokuapp.com/',
-            static: false,
-            techs: 'Bootstrap, Node, Mongoose, Yelp API',
             scrollReveal: 'port-item2'
           },
           {
@@ -78,13 +78,22 @@
             scrollReveal: 'port-item3'
           },
           {
+            name: "Night-Life Outing",
+            image: require('./assets/NightLife.png'),
+            githubLink: 'https://github.com/Bigghead/fcc-nightlife',
+            liveLink: 'https://calm-shelf-79440.herokuapp.com/',
+            static: false,
+            techs: 'Bootstrap, Node, Mongoose, Yelp API',
+            scrollReveal: 'port-item3'
+          },
+          {
             name: "Pinterest Clone",
             image: require('./assets/PinterestClone.png'),
             githubLink: 'https://github.com/Bigghead/Pinterest-Clone',
             liveLink: 'https://blooming-everglades-99212.herokuapp.com/',
             static: false,
             techs: 'Node/Express, Mongoose, Vue.js',
-            scrollReveal: 'port-item3'
+            scrollReveal: 'port-item4'
           },
           {
             name: "Momentum Clone",
@@ -95,15 +104,15 @@
             techs: 'HTML, CSS, JavaScript',
             scrollReveal: 'port-item4'
           },
-          {
-            name: "Camper Leaderboard",
-            image: require('./assets/CamperLeaderboard.png'),
-            githubLink: 'https://github.com/Bigghead/Camper-Leaderboard',
-            liveLink: 'http://lavish-lunch.surge.sh/',
-            static: true,
-            techs: 'HTML, Bootstrap, React.js',
-            scrollReveal: 'port-item4'
-          },
+          // {
+          //   name: "Camper Leaderboard",
+          //   image: require('./assets/CamperLeaderboard.png'),
+          //   githubLink: 'https://github.com/Bigghead/Camper-Leaderboard',
+          //   liveLink: 'http://lavish-lunch.surge.sh/',
+          //   static: true,
+          //   techs: 'HTML, Bootstrap, React.js',
+          //   scrollReveal: 'port-item4'
+          // },
           {
             name: "Wikipedia Viewer",
             image: require('./assets/WikiViewer.png'),
@@ -156,17 +165,15 @@
   .project-tech{
    font-family: Raleway;
    font-size: 16px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden;
   }
 
   a{
-    font-size: 18px;
+    font-size: 16px;
   }
 
-   @media(max-width: 600px){
-    a{
-      font-size: 16px;
-    }
-  }
 
   @media(max-width: 500px){
     a{
