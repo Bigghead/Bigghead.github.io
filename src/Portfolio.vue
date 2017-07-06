@@ -70,7 +70,7 @@
           },
           {
             name: "Book Trading App",
-            image: require('./assets/BookTradingApp.png'),
+            image: require('./assets/BookTradingApp.jpg'),
             githubLink: 'https://github.com/Bigghead/book-trading-app',
             liveLink: 'https://lychee-pie-43109.herokuapp.com/',
             static: false,
@@ -79,7 +79,7 @@
           },
           {
             name: "Night-Life Outing",
-            image: require('./assets/NightLife.png'),
+            image: require('./assets/NightLife.jpg'),
             githubLink: 'https://github.com/Bigghead/fcc-nightlife',
             liveLink: 'https://calm-shelf-79440.herokuapp.com/',
             static: false,
@@ -88,7 +88,7 @@
           },
           {
             name: "Pinterest Clone",
-            image: require('./assets/PinterestClone.png'),
+            image: require('./assets/PinterestClone.jpg'),
             githubLink: 'https://github.com/Bigghead/Pinterest-Clone',
             liveLink: 'https://blooming-everglades-99212.herokuapp.com/',
             static: false,
@@ -97,7 +97,7 @@
           },
           {
             name: "Momentum Clone",
-            image: require('./assets/Momentum.png'),
+            image: require('./assets/Momentum.jpg'),
             githubLink: 'https://github.com/Bigghead/Momentum-Clone',
             liveLink: 'http://rawgit.com/Bigghead/Momentum-Clone/master/index.html',
             static: true,
