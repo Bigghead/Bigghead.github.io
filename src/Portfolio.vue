@@ -60,30 +60,12 @@
             scrollReveal: 'port-item2'
           },
           {
-            name: "Voting App",
-            image: require('./assets/fccVoting.png'),
-            githubLink: 'https://github.com/Bigghead/fccVotingApp',
-            liveLink: 'https://fcc-voting-app-ver2.herokuapp.com/',
-            static: false,
-            techs: 'Bootstrap, Node.js, Mongoose, Chart.JS',
-            scrollReveal: 'port-item2'
-          },
-          {
             name: "Book Trading App",
             image: require('./assets/BookTradingApp.jpg'),
             githubLink: 'https://github.com/Bigghead/book-trading-app',
             liveLink: 'https://lychee-pie-43109.herokuapp.com/',
             static: false,
             techs: 'Materialize, Node/Express, Mongoose',
-            scrollReveal: 'port-item3'
-          },
-          {
-            name: "Night-Life Outing",
-            image: require('./assets/NightLife.jpg'),
-            githubLink: 'https://github.com/Bigghead/fcc-nightlife',
-            liveLink: 'https://calm-shelf-79440.herokuapp.com/',
-            static: false,
-            techs: 'Bootstrap, Node, Mongoose, Yelp API',
             scrollReveal: 'port-item3'
           },
           {
@@ -94,6 +76,24 @@
             static: false,
             techs: 'Node/Express, Mongoose, Vue.js',
             scrollReveal: 'port-item4'
+          },
+          {
+            name: "Voting App",
+            image: require('./assets/fccVoting.jpg'),
+            githubLink: 'https://github.com/Bigghead/fccVotingApp',
+            liveLink: 'https://fcc-voting-app-ver2.herokuapp.com/',
+            static: false,
+            techs: 'Bootstrap, Node.js, Mongoose, Chart.JS',
+            scrollReveal: 'port-item2'
+          },
+          {
+            name: "Night-Life Outing",
+            image: require('./assets/NightLife.jpg'),
+            githubLink: 'https://github.com/Bigghead/fcc-nightlife',
+            liveLink: 'https://calm-shelf-79440.herokuapp.com/',
+            static: false,
+            techs: 'Bootstrap, Node, Mongoose, Yelp API',
+            scrollReveal: 'port-item3'
           },
           {
             name: "Momentum Clone",
