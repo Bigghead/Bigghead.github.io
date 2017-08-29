@@ -66,7 +66,7 @@
             liveLink: 'https://lychee-pie-43109.herokuapp.com/',
             static: false,
             techs: 'Materialize, Node/Express, Mongoose',
-            scrollReveal: 'port-item3'
+            scrollReveal: 'port-item2'
           },
           {
             name: "Pinterest Clone",
@@ -75,7 +75,7 @@
             liveLink: 'https://blooming-everglades-99212.herokuapp.com/',
             static: false,
             techs: 'Node/Express, Mongoose, Vue.js',
-            scrollReveal: 'port-item4'
+            scrollReveal: 'port-item3'
           },
           {
             name: "Voting App",
@@ -84,7 +84,7 @@
             liveLink: 'https://fcc-voting-app-ver2.herokuapp.com/',
             static: false,
             techs: 'Bootstrap, Node.js, Mongoose, Chart.JS',
-            scrollReveal: 'port-item2'
+            scrollReveal: 'port-item3'
           },
           {
             name: "Night-Life Outing",
@@ -93,7 +93,7 @@
             liveLink: 'https://calm-shelf-79440.herokuapp.com/',
             static: false,
             techs: 'Bootstrap, Node, Mongoose, Yelp API',
-            scrollReveal: 'port-item3'
+            scrollReveal: 'port-item4'
           },
           {
             name: "Momentum Clone",
