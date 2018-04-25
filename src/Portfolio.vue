@@ -69,6 +69,15 @@
             scrollReveal: 'port-item2'
           },
           {
+            name: "Flashcard App",
+            image: require('./assets/flashcards.png'),
+            githubLink: 'https://github.com/chingu-voyage4/Bears-Team-9',
+            liveLink: 'https://shrouded-taiga-52624.herokuapp.com/',
+            static: false,
+            techs: 'React/Redux, Node, Mongoose',
+            scrollReveal: 'port-item3'
+          },
+          {
             name: "Pinterest Clone",
             image: require('./assets/PinterestClone.jpg'),
             githubLink: 'https://github.com/Bigghead/Pinterest-Clone',
@@ -84,7 +93,7 @@
             liveLink: 'https://fcc-voting-app-ver2.herokuapp.com/',
             static: false,
             techs: 'Bootstrap, Node.js, Mongoose, Chart.JS',
-            scrollReveal: 'port-item3'
+            scrollReveal: 'port-item4'
           },
           {
             name: "Night-Life Outing",
@@ -102,7 +111,7 @@
             liveLink: 'http://rawgit.com/Bigghead/Momentum-Clone/master/index.html',
             static: true,
             techs: 'HTML, CSS, JavaScript',
-            scrollReveal: 'port-item4'
+            scrollReveal: 'port-item5'
           },
           // {
           //   name: "Camper Leaderboard",
@@ -129,7 +138,7 @@
             liveLink: 'http://zippy-roof.surge.sh/',
             static: true,
             techs: 'HTML, Materialize, Vue.js',
-            scrollReveal: 'port-item5'
+            scrollReveal: 'port-item6'
           }
 
         ]

@@ -30,5 +30,6 @@
       sr.reveal('.port-item3', { duration: 2000, viewFactor: 0.3 }, 100);
       sr.reveal('.port-item4', { duration: 2000, viewFactor: 0.3 }, 100);
       sr.reveal('.port-item5', { duration: 2000, viewFactor: 0.3 }, 100);
+      sr.reveal('.port-item6', { duration: 2000, viewFactor: 0.3 }, 100);      
 
     });
