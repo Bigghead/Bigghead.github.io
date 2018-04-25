@@ -11,7 +11,9 @@
           <div v-bind:class='project.scrollReveal'>
             <h4>{{ project.name }}</h4>
               <h6 class='project-tech'> {{ project.techs }} </h6>
-                  <img v-bind:src=project.image class='responsive-img'>
+                <a v-bind:href='project.liveLink' target='_blank'>
+                    <img v-bind:src=project.image class='responsive-img'>
+                </a>
                 <a v-bind:href='project.githubLink' target='_blank'>Github</a><span> |</span>
                 <a v-bind:href='project.liveLink' target='_blank'>Demo</a>
           </div>
