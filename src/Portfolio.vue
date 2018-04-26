@@ -12,7 +12,7 @@
             <h4>{{ project.name }}</h4>
               <h6 class='project-tech'> {{ project.techs }} </h6>
                 <a v-bind:href='project.liveLink' target='_blank'>
-                    <img v-bind:src=project.image class='responsive-img'>
+                    <img v-bind:data-src=project.image class='responsive-img lozad'>
                 </a>
                 <a v-bind:href='project.githubLink' target='_blank'>Github</a><span> |</span>
                 <a v-bind:href='project.liveLink' target='_blank'>Demo</a>
@@ -110,7 +110,7 @@
             name: "Momentum Clone",
             image: require('./assets/Momentum.jpg'),
             githubLink: 'https://github.com/Bigghead/Momentum-Clone',
-            liveLink: 'http://rawgit.com/Bigghead/Momentum-Clone/master/index.html',
+            liveLink: 'http://young-tongue.surge.sh/',
             static: true,
             techs: 'HTML, CSS, JavaScript',
             scrollReveal: 'port-item5'
