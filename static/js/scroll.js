@@ -1,6 +1,6 @@
  $(document).ready(function () {
-        const observer = lozad(); // lazy loads elements with default selector as ".lozad"
-        observer.observe();
+        // const observer = lozad(); // lazy loads elements with default selector as ".lozad"
+        // observer.observe();
       $(".button-collapse").sideNav();
       // all images loaded
       $('.wrapper').addClass('animated bounceInDown show');
