@@ -4,7 +4,7 @@
     <div id='about-me' class="parallax-container">
       <div class="parallax">
         <!--<img src="https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=">-->
-        <img src='./assets/SecondPage.jpg' alt="" class='lozad'>
+        <img v-bind:data-src=image alt="" class='lozad'>
       </div>
 
       <div class="row">
@@ -70,7 +70,8 @@
     },
     data: function () {
       return {
-        message: 'Parallax'
+        message: 'Parallax',
+        image: require('./assets/SecondPage.jpg'),
       }
     },
     methods: {
