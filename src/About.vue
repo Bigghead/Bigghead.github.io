@@ -4,7 +4,7 @@
     <div id='about-me' class="parallax-container">
       <div class="parallax">
         <!--<img src="https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=">-->
-        <img src='./assets/SecondPage.jpg' alt="" class='lozad'>
+        <img src='./assets/SecondPage.jpg' alt="" class=''>
       </div>
 
       <div class="row">
@@ -21,22 +21,22 @@
                 <li class="tab col s3"><a class="" href="#test3">Hobbies</a></li>
               </ul>
 
-              <div id="test1" class="col s12  about-mes color2  animated fadeInLeft">
+              <div id="test1" class="col s12  about-mes color2 fade-in-left">
                 <br>
-                <span>I'm an internet/community taught aspiring web developer who likes making cool things with JavaScript</span>
+                <span>I'm an internet/community taught web developer who likes making cool things with JavaScript</span>
                 <br>
                 <br>
                 <span>I specialize in using the MEAN stack to build full stack applications. Check out some of my projects below</span>
 
               </div>
-              <div id="test2" class="col s12  about-mes color2  animated fadeInUp">
+              <div id="test2" class="col s12  about-mes color2 fade-in-top">
                 <br>
-                <span> I work with HTML, CSS, JavaScript (jQuery ,Vue.js, minor React.js) and have also used JavaScript on the backend with Node.js/Express/Mongoose</span>
+                <span> I work with HTML, CSS, JavaScript( ES6 ), Angular, React, and have also used JavaScript on the backend with Node.js/Express/Mongoose</span>
                 <br>
                 <br>
                 <span>Currently in love with Angular</span>
               </div>
-              <div id="test3" class="col s12  about-mes color2  animated fadeInRight">
+              <div id="test3" class="col s12  about-mes color2 fade-in-right">
                 <br>
                 <span>Going to random meetups in my area</span>
                 <br>

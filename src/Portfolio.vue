@@ -12,7 +12,7 @@
             <h4>{{ project.name }}</h4>
               <h6 class='project-tech'> {{ project.techs }} </h6>
                 <a v-bind:href='project.liveLink' target='_blank'>
-                    <img v-bind:src=project.image class='responsive-img lozad'>
+                    <img v-bind:data-src=project.image class='responsive-img lozad lozad-port'>
                 </a>
                 <a v-bind:href='project.githubLink' target='_blank'>Github</a><span> |</span>
                 <a v-bind:href='project.liveLink' target='_blank'>Demo</a>
@@ -36,7 +36,7 @@
         projects: [
            {
             name: "Netflix Clone",
-            image: require('./assets/NoobFlix-min.jpeg'),
+            image: require('./assets/NoobFlix-min.jpg'),
             githubLink: 'https://github.com/Bigghead/Netflix-Clone-2.0',
             liveLink: 'https://morning-retreat-68692.herokuapp.com/',
             static: false,
@@ -54,7 +54,7 @@
           },
           {
             name: "Stock Market Charting",
-            image: require('./assets/StockChart.png'),
+            image: require('./assets/StockChart.jpg'),
             githubLink: 'https://github.com/Bigghead/fcc-stock-market',
             liveLink: 'https://cryptic-fjord-45243.herokuapp.com/',
             static: false,
@@ -72,7 +72,7 @@
           },
           {
             name: "Flashcard App",
-            image: require('./assets/flashcards.png'),
+            image: require('./assets/flashcards.jpg'),
             githubLink: 'https://github.com/chingu-voyage4/Bears-Team-9',
             liveLink: 'https://shrouded-taiga-52624.herokuapp.com/',
             static: false,
@@ -108,7 +108,7 @@
           },
           {
             name: "Cryptex",
-            image: require('./assets/toucans.png'),
+            image: require('./assets/toucans.jpg'),
             githubLink: 'https://github.com/chingu-voyage4/Toucans-Team-3',
             liveLink: 'https://chingu-voyage4.github.io/Toucans-Team-3/build/',
             static: true,
@@ -135,7 +135,7 @@
           // },
           {
             name: "Wikipedia Viewer",
-            image: require('./assets/WikiViewer.png'),
+            image: require('./assets/WikiViewer.jpg'),
             githubLink: 'https://github.com/Bigghead/FCC-Vue/tree/master/Wikipedia-viewer',
             liveLink: 'http://cloistered-good-bye.surge.sh/',
             static: true,
@@ -144,7 +144,7 @@
           },
           {
             name: "Weather App",
-            image: require('./assets/WeatherApp.png'),
+            image: require('./assets/WeatherApp.jpg'),
             githubLink: 'https://github.com/Bigghead/FCC-Vue/tree/master/weather-app',
             liveLink: 'http://zippy-roof.surge.sh/',
             static: true,
