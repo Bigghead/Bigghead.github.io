@@ -8,6 +8,7 @@ $( document ).ready( function () {
             }
         }
     } ); // lazy loads elements with default selector as ".lozad"
+    lozad('.lozad-background').observe();
     observer.observe();
     $( ".button-collapse" ).sideNav();
     $( '.wrapper' ).addClass( 'show bounce-in-top' );

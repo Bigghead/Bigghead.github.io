@@ -4,14 +4,14 @@
     <div id='about-me' class="parallax-container">
       <div class="parallax">
         <!--<img src="https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=">-->
-        <img src='./assets/SecondPage.jpg' alt="" class=''>
+        <img v-bind:data-src=image alt="" class='lozad-background'>
       </div>
 
       <div class="row">
 
 
 
-        <div class="col m8 offset-m2 s12 ">
+        <div class="col m8 offset-m2 s12 about-box">
           <h1 class='center-align about-text'><em>About Me</em></h1>
           <div class="row">
             <div class="col s12">
@@ -88,19 +88,13 @@
     height: 600px;
   }
   
-  .page2 {
-    background-color: black;
-    background: url("https://images.unsplash.com/photo-1422226256160-9b266e308ea6?dpr=1&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=");
-    background-size: cover;
-    height: 800px;
-  }
   
-  .profilePic {
-    margin-top: 20%;
+  .about-box{
+      margin-top: 5%;
   }
 
   .about-text{
-    font-family: 'Secular One';
+    font-family: 'Roboto';
   }
   
   h1 {
@@ -159,7 +153,7 @@
   }
   
   .about-mes {
-    font-family: Raleway;
+    font-family: 'Roboto';
     color: white;
     display: block;
     padding: 0 20px !important;

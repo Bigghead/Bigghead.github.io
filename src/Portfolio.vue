@@ -161,7 +161,6 @@
 
 <style media="screen" scoped>
 
- 
   img {
     width: 100%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
@@ -175,7 +174,7 @@
   }
 
  h2{
-   font-family: 'Secular One';
+   font-family: 'Roboto';
  }
   
   .port-item {
@@ -183,7 +182,7 @@
   }
 
   .project-tech{
-   font-family: Raleway;
+   font-family: 'Roboto';
    font-size: 16px;
    text-overflow: ellipsis;
    white-space: nowrap;
