@@ -1,7 +1,7 @@
 <template id="">
 
   <div>
-    <div id='about-me' class="parallax-container">
+    <div id='about-me' class="parallax-container" style="height: 600px">
       
 
       <div class="row">

@@ -41,12 +41,9 @@ const loadMaterial = () => {
     ];
 
     links.forEach( ( link ) => {
-        const linkEl = document.createElement('link');
-        const rel    = document.createAttribute('rel');
-        const href   = document.createAttribute('href');
-
-        linkEl.rel =  'stylesheet';
-        linkEl.href = link;
+        const linkEl      = document.createElement('link');
+              linkEl.rel  = 'stylesheet';
+              linkEl.href = link;
 
         document.head.appendChild(linkEl);
     } )
