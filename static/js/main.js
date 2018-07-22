@@ -2,6 +2,7 @@ $( document ).ready( function () {
 
 
     loadMaterial();
+    loadImage();
     const observer = lozad( '.lozad', {
         load: ( el ) => {
             el.src = el.dataset.src;
@@ -47,4 +48,10 @@ const loadMaterial = () => {
 
         document.head.appendChild(linkEl);
     } )
+};
+
+
+const loadImage = () => {
+    let background = document.querySelector('.background-3');
+    background.setAttribute('src', '/static/img/ThirdPage.53f8dda.jpg');
 }
