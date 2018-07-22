@@ -3,16 +3,11 @@ $( document ).ready( function () {
     const observer = lozad( '.lozad', {
         load: ( el ) => {
             el.src = el.dataset.src;
-            el.onload = () => {
-                el.classList.add( 'fadeIn' );
-            }
         }
     } ); // lazy loads elements with default selector as ".lozad"
     lozad('.lozad-background').observe();
     observer.observe();
     $( ".button-collapse" ).sideNav();
-    $( '.wrapper' ).addClass( 'show bounce-in-top' );
-    $( '.top-nav' ).addClass( 'show bounce-in-top' );
     $( '.parallax' ).parallax();
     $( 'ul.tabs' ).tabs( 'select_tab', 'tab_id',
         {

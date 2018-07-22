@@ -119,7 +119,7 @@
             name: "Momentum Clone",
             image: require('./assets/Momentum.jpg'),
             githubLink: 'https://github.com/Bigghead/Momentum-Clone',
-            liveLink: 'http://young-tongue.surge.sh/',
+            liveLink: 'http://ten-cloud.surge.sh/',
             static: true,
             techs: 'HTML, CSS, JavaScript',
             scrollReveal: 'port-item5'

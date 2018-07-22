@@ -22,7 +22,13 @@
 </template>
 
 <script type="text/javascript">
-
+    export default {
+        mounted() {
+            const topNav = this.$el.querySelector('.top-nav');
+            topNav.classList.add('show');
+            topNav.classList.add('bounce-in-top');
+        }
+    }
 </script>
 
 <style scoped>
