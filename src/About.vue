@@ -68,7 +68,6 @@
     data: function () {
       return {
         message: 'Parallax',
-        image: require('./assets/SecondPage.jpg'),
       }
     },
     methods: {
