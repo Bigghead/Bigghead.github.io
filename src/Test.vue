@@ -132,12 +132,12 @@
   }
 
   .carousel{
-    height: 250px;
+    /* height: 250px; */
   }
   .about-mes{
     display: block;
     word-wrap: break-word; 
-    height: 250px;
+    /* height: 250px; */
 
   }
 </style>

@@ -2,7 +2,7 @@ $( document ).ready( function () {
 
 
     loadMaterial();
-    loadImage();
+    // loadImage();
     const observer = lozad( '.lozad', {
         load: ( el ) => {
             el.src = el.dataset.src;
@@ -37,6 +37,7 @@ $( document ).ready( function () {
 
 const loadMaterial = () => {
     const links = [
+        'https://fonts.googleapis.com/css?family=Roboto',
         'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css', 
         'https://fonts.googleapis.com/icon?family=Material+Icons'
     ];

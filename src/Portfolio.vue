@@ -53,6 +53,15 @@
             scrollReveal: 'port-item1'
           },
           {
+            name: "Chingu Warrior",
+            image: require('./assets/Chingu_warrior1.jpg'),
+            githubLink: 'https://github.com/chingu-voyage5/Geckos-Team-5',
+            liveLink: 'http://chinguwarrior.surge.sh/',
+            static: false,
+            techs: 'Phaser 3',
+            scrollReveal: 'port-item2'
+          },
+          {
             name: "Stock Market Charting",
             image: require('./assets/StockChart.jpg'),
             githubLink: 'https://github.com/Bigghead/fcc-stock-market',
@@ -68,7 +77,7 @@
             liveLink: 'https://lychee-pie-43109.herokuapp.com/',
             static: false,
             techs: 'Materialize, Node/Express, Mongoose',
-            scrollReveal: 'port-item2'
+            scrollReveal: 'port-item3'
           },
           {
             name: "Flashcard App",
@@ -86,7 +95,7 @@
             liveLink: 'https://blooming-everglades-99212.herokuapp.com/',
             static: false,
             techs: 'Node/Express, Mongoose, Vue.js',
-            scrollReveal: 'port-item3'
+            scrollReveal: 'port-item4'
           },
           {
             name: "Voting App",
@@ -104,7 +113,7 @@
             liveLink: 'https://calm-shelf-79440.herokuapp.com/',
             static: false,
             techs: 'Bootstrap, Node, Mongoose, Yelp API',
-            scrollReveal: 'port-item4'
+            scrollReveal: 'port-item5'
           },
           {
             name: "Cryptex",
@@ -122,7 +131,7 @@
             liveLink: 'http://ten-cloud.surge.sh/',
             static: true,
             techs: 'HTML, CSS, JavaScript',
-            scrollReveal: 'port-item5'
+            scrollReveal: 'port-item6'
           },
           // {
           //   name: "Camper Leaderboard",
@@ -142,15 +151,15 @@
             techs: 'HTML, Materialize, Vue.js',
             scrollReveal: 'port-item6'
           },
-          {
-            name: "Weather App",
-            image: require('./assets/WeatherApp.jpg'),
-            githubLink: 'https://github.com/Bigghead/FCC-Vue/tree/master/weather-app',
-            liveLink: 'http://zippy-roof.surge.sh/',
-            static: true,
-            techs: 'HTML, Materialize, Vue.js',
-            scrollReveal: 'port-item6'
-          }
+        //   {
+        //     name: "Weather App",
+        //     image: require('./assets/WeatherApp.jpg'),
+        //     githubLink: 'https://github.com/Bigghead/FCC-Vue/tree/master/weather-app',
+        //     liveLink: 'http://zippy-roof.surge.sh/',
+        //     static: true,
+        //     techs: 'HTML, Materialize, Vue.js',
+        //     scrollReveal: 'port-item7'
+        //   }
 
         ]
       }
