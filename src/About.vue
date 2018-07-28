@@ -28,19 +28,19 @@
               </div>
               <div id="test2" class="col s12  about-mes color2 fade-in-top">
                 <br>
-                <span> I work with HTML, CSS, JavaScript( ES6 ), Angular, React, and have also used JavaScript on the backend with Node.js/Express/Mongoose</span>
+                <span> I work with HTML, CSS, JavaScript( ES6 ), and have also used JavaScript on the backend with Node.js/Express/Mongoose. 
+                    Extremely comfortable with modern JS frameworks like Angular and React and their toolchain, but currently in love with Vanilla JS
+                </span>
                 <br>
-                <br>
-                <span>Currently in love with Angular</span>
               </div>
               <div id="test3" class="col s12  about-mes color2 fade-in-right">
                 <br>
-                <span>Going to random meetups in my area</span>
+                <span> - Hanging out around cars and/or dogs or anything involving eating food</span>
                 <br>
                 <br>
-                <span>Building new projects</span>
+                <span> - Browsing code, scouring Github for project ideas ( Learning mobile dev at the present time )</span>
                 <br><br>
-                <span>Watching random tutorials on YouTube</span>
+                <span> - Prematurely optimizing my web applications</span><br>
                 <br>
               </div>
             </div>
@@ -160,7 +160,7 @@
     padding: 0 20px !important;
     /*background-color: transparent !important;*/
     word-wrap: break-all;
-    height: 250px;
+    height: 300px;
     width: 100%;
     font-size: 24px;
     margin-bottom: 20px;

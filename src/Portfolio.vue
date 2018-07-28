@@ -12,7 +12,10 @@
             <h4>{{ project.name }}</h4>
               <h6 class='project-tech'> {{ project.techs }} </h6>
                 <a v-bind:href='project.liveLink' target='_blank'>
-                    <img v-bind:data-src=project.image class='responsive-img lozad lozad-port'>
+                    <img 
+                        src="http://via.placeholder.com/350x150?text=+"
+                        v-bind:data-src=project.image 
+                        class='responsive-img lozad lozad-port'>
                 </a>
                 <a v-bind:href='project.githubLink' target='_blank'>Github</a><span> |</span>
                 <a v-bind:href='project.liveLink' target='_blank'>Demo</a>
@@ -80,15 +83,6 @@
             scrollReveal: 'port-item3'
           },
           {
-            name: "Flashcard App",
-            image: require('./assets/flashcards.jpg'),
-            githubLink: 'https://github.com/chingu-voyage4/Bears-Team-9',
-            liveLink: 'https://shrouded-taiga-52624.herokuapp.com/',
-            static: false,
-            techs: 'React/Redux, Node, Mongoose',
-            scrollReveal: 'port-item3'
-          },
-          {
             name: "Pinterest Clone",
             image: require('./assets/PinterestClone.jpg'),
             githubLink: 'https://github.com/Bigghead/Pinterest-Clone',
@@ -105,6 +99,15 @@
             static: false,
             techs: 'Bootstrap, Node.js, Mongoose, Chart.JS',
             scrollReveal: 'port-item4'
+          },
+          {
+            name: "Flashcard App",
+            image: require('./assets/flashcards.jpg'),
+            githubLink: 'https://github.com/chingu-voyage4/Bears-Team-9',
+            liveLink: 'https://shrouded-taiga-52624.herokuapp.com/',
+            static: false,
+            techs: 'React/Redux, Node, Mongoose',
+            scrollReveal: 'port-item3'
           },
           {
             name: "Night-Life Outing",
@@ -201,6 +204,7 @@
   a{
     font-size: 16px;
   }
+  
 
 
   @media(max-width: 500px){
