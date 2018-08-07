@@ -2,17 +2,14 @@
   <div class="pageone center-align">
     <div class="wrapper ">
       <div class='box '>
-        <h1>Shav D. Parta</h1>
+        <h1>Welcome</h1>
 
 
-        <div class='btn-list'>
+        <!-- <div class='btn-list'>
           <div class="row">
-              <a class='col s6 offset-s3 waves-effect waves-light btn indigo lighten-1' target='_blank' href='https://github.com/Bigghead'>Github</a>
-            
-              <!-- <a class="col s5 offset-s1  waves-effect waves-light btn indigo lighten-1" target='_blank' href='https://codepen.io/Bigghead/pens/public/'>Codepen</a> -->
-            
+              <a class='col s6 offset-s3 waves-effect waves-light btn indigo lighten-1' target='_blank' href='https://github.com/Bigghead'>Github</a>            
           </div>
-        </div>
+        </div> -->
       </div>
 
     </div>

@@ -20,16 +20,19 @@
 
               <div id="test1" class="col s12  about-mes color2 fade-in-left">
                 <br>
-                <span>I'm an internet/community taught web developer who likes making cool things with JavaScript</span>
+                <span>Hi, I'm Shav!</span>
+                <br><br>
+                <span>I'm an internet/community taught web developer who likes making cool things with JavaScript. 
+                    I've developed programs on my own, and have also built group projects with remote international teams.</span>
                 <br>
                 <br>
-                <span>I specialize in using the MEAN stack to build full stack applications. Check out some of my projects below</span>
+                <span>I specialize in using the MEAN stack to build full stack applications. Check out some of my projects below.</span>
 
               </div>
               <div id="test2" class="col s12  about-mes color2 fade-in-top">
                 <br>
                 <span> I work with HTML, CSS, JavaScript( ES6 ), and have also used JavaScript on the backend with Node.js/Express/Mongoose. 
-                    Extremely comfortable with modern JS frameworks like Angular and React and their toolchain, but currently in love with Vanilla JS
+                    Extremely comfortable with modern JS frameworks like Angular and React and their toolchain, but currently in love with Vanilla JS.
                 </span>
                 <br>
               </div>
