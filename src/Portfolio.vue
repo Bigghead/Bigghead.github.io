@@ -1,5 +1,5 @@
 <template id="">
-  <div id="portfolio" class='container section'>
+  <div id="portfolio" class='section'>
     <div class=" center-align">
       <h2>Projects I've Done:</h2>
 
@@ -11,11 +11,13 @@
           <div v-bind:class='project.scrollReveal'>
             <h4>{{ project.name }}</h4>
               <h6 class='project-tech'> {{ project.techs }} </h6>
-                <a v-bind:href='project.liveLink' target='_blank'>
+                <a v-bind:href='project.liveLink' target='_blank'
+                    v-bind:style="{ 'display': project.mobile ? 'block': '' }">
                     <img 
                         src="http://via.placeholder.com/350x150?text=+"
                         v-bind:data-src=project.image 
-                        class='responsive-img lozad lozad-port'>
+                        class='responsive-img lozad lozad-port'
+                        v-bind:class="{ 'mobile-project': project.mobile }">
                 </a>
                 <a v-bind:href='project.githubLink' target='_blank'>Github</a><span> |</span>
                 <a v-bind:href='project.liveLink' target='_blank'>Demo</a>
@@ -154,6 +156,26 @@
             techs: 'HTML, Materialize, Vue.js',
             scrollReveal: 'port-item6'
           },
+           {
+            name: "Cryptex Shadow",
+            image: require('./assets/Mobile/Cryptex_shadow.png'),
+            githubLink: 'https://github.com/Bigghead/Cryptex_Shadow',
+            // liveLink: 'http://cloistered-good-bye.surge.sh/',
+            static: true,
+            techs: 'Dart/Flutter ( Still in Progress )',
+            scrollReveal: 'port-item6',
+            mobile: true
+          },
+           {
+            name: "Calculator",
+            image: require('./assets/Mobile/Calculator.png'),
+            githubLink: 'https://github.com/Bigghead/Dart_Flutter_Projects/tree/master/project_1_calculator',
+            // liveLink: 'http://cloistered-good-bye.surge.sh/',
+            static: true,
+            techs: 'Dart / Flutter',
+            scrollReveal: 'port-item6',
+            mobile: true
+          },
         //   {
         //     name: "Weather App",
         //     image: require('./assets/WeatherApp.jpg'),
@@ -173,11 +195,31 @@
 
 <style media="screen" scoped>
 
+ #portfolio {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+@media only screen and (min-width: 601px) {
+  #portfolio {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  #portfolio {
+    width: 85%;
+  }
+}
+
   img {
     width: 100%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     border: solid 2px grey;
     margin-top: 5%;
+  }
+
+  img.mobile-project {
+      width: 50%;
   }
   
   .hello {
