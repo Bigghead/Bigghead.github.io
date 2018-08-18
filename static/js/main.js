@@ -38,7 +38,7 @@ $( document ).ready( function () {
 const loadMaterial = () => {
     const links = [
         'https://fonts.googleapis.com/css?family=Roboto',
-        'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css', 
+        // 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css', 
         'https://fonts.googleapis.com/icon?family=Material+Icons'
     ];
 

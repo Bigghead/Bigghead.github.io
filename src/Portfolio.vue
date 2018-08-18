@@ -14,7 +14,7 @@
                 <a v-bind:href='project.liveLink' target='_blank'
                     v-bind:style="{ 'display': project.mobile ? 'block': '' }">
                     <img 
-                        src="http://via.placeholder.com/350x150?text=+"
+                        src="https://via.placeholder.com/350x150?text=+"
                         v-bind:data-src=project.image 
                         class='responsive-img lozad lozad-port'
                         v-bind:class="{ 'mobile-project': project.mobile }">
@@ -43,7 +43,7 @@
             name: "Netflix Clone",
             image: require('./assets/NoobFlix-min.jpg'),
             githubLink: 'https://github.com/Bigghead/Netflix-Clone-2.0',
-            liveLink: 'https://morning-retreat-68692.herokuapp.com/',
+            liveLink: 'http://noobflix.club/',
             static: false,
             techs: 'Node.js, Mongoose, Angular',
             scrollReveal: 'port-item1'
@@ -162,20 +162,30 @@
             githubLink: 'https://github.com/Bigghead/Cryptex_Shadow',
             // liveLink: 'http://cloistered-good-bye.surge.sh/',
             static: true,
-            techs: 'Dart/Flutter ( Still in Progress )',
-            scrollReveal: 'port-item6',
-            mobile: true
-          },
-           {
-            name: "Calculator",
-            image: require('./assets/Mobile/Calculator.png'),
-            githubLink: 'https://github.com/Bigghead/Dart_Flutter_Projects/tree/master/project_1_calculator',
-            // liveLink: 'http://cloistered-good-bye.surge.sh/',
-            static: true,
             techs: 'Dart / Flutter',
             scrollReveal: 'port-item6',
             mobile: true
           },
+          {
+            name: "Spacey Boi",
+            image: require('./assets/Mobile/Spacey_boi.png'),
+            githubLink: 'https://github.com/Bigghead/Spacey-Boi',
+            // liveLink: 'http://cloistered-good-bye.surge.sh/',
+            static: true,
+            techs: 'Dart / Flutter ( Still in Progress )',
+            scrollReveal: 'port-item6',
+            mobile: true
+          },
+        //    {
+        //     name: "Calculator",
+        //     image: require('./assets/Mobile/Calculator.png'),
+        //     githubLink: 'https://github.com/Bigghead/Dart_Flutter_Projects/tree/master/project_1_calculator',
+        //     // liveLink: 'http://cloistered-good-bye.surge.sh/',
+        //     static: true,
+        //     techs: 'Dart / Flutter',
+        //     scrollReveal: 'port-item6',
+        //     mobile: true
+        //   },
         //   {
         //     name: "Weather App",
         //     image: require('./assets/WeatherApp.jpg'),
