@@ -11,6 +11,7 @@
           <div v-bind:class='project.scrollReveal'>
             <h4>{{ project.name }}</h4>
               <h6 class='project-tech'> {{ project.techs }} </h6>
+              <p v-if="project.mobile">( See Github repo for more screenshots )</p>
                 <a v-bind:href='project.liveLink' target='_blank'
                     v-bind:style="{ 'display': project.mobile ? 'block': '' }">
                     <img 
@@ -40,7 +41,7 @@
         show: true,
         projects: [
            {
-            name: "Netflix Clone",
+            name: "Noobflix",
             image: require('./assets/NoobFlix-min.jpg'),
             githubLink: 'https://github.com/Bigghead/Netflix-Clone-2.0',
             liveLink: 'http://noobflix.club/',
@@ -172,7 +173,7 @@
             githubLink: 'https://github.com/Bigghead/Spacey-Boi',
             // liveLink: 'http://cloistered-good-bye.surge.sh/',
             static: true,
-            techs: 'Dart / Flutter ( Still in Progress )',
+            techs: 'Dart / Flutter',
             scrollReveal: 'port-item6',
             mobile: true
           },

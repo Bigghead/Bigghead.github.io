@@ -1,7 +1,7 @@
 <template id="">
 
   <div>
-    <div id='about-me' class="parallax-container" style="height: 600px">
+    <div id='about-me' class="parallax-container">
       
 
       <div class="row">
@@ -24,17 +24,20 @@
                 <br><br>
                 <span>I'm an internet/community taught web developer who likes making cool things with JavaScript. 
                     I've developed programs on my own, and have also built group projects with remote international teams.</span>
+                <br><br>
+                <span>I specialize in using the MEAN or MERN stack to build web applications and Google's magnificent Flutter to build hybrid mobile apps. 
+                    Check out some of my projects below.</span>
                 <br>
-                <br>
-                <span>I specialize in using the MEAN stack to build full stack applications. Check out some of my projects below.</span>
-
+                
               </div>
               <div id="test2" class="col s12  about-mes color2 fade-in-top">
                 <br>
                 <span> I work with HTML, CSS, JavaScript( ES6 ), and have also used JavaScript on the backend with Node.js/Express/Mongoose. 
                     Extremely comfortable with modern JS frameworks like Angular and React and their toolchain, but currently in love with Vanilla JS.
                 </span>
-                <br>
+                <br><br>
+                <span>Also playing with Dart/Flutter for mobile dev.</span>
+                
               </div>
               <div id="test3" class="col s12  about-mes color2 fade-in-right">
                 <br>
@@ -43,7 +46,7 @@
                 <br>
                 <span> - Browsing code, scouring Github for project ideas ( Learning mobile dev at the present time )</span>
                 <br><br>
-                <span> - Prematurely optimizing my web applications</span><br>
+                <span> - Prematurely optimizing my applications for speed</span><br>
                 <br>
               </div>
             </div>
@@ -101,7 +104,10 @@
       /* background-position: center; */
   }
   .parallax-container {
-    height: 600px;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
   }
   
   
@@ -163,7 +169,7 @@
     padding: 0 20px !important;
     /*background-color: transparent !important;*/
     word-wrap: break-all;
-    height: 300px;
+    height: 25rem;
     width: 100%;
     font-size: 24px;
     margin-bottom: 20px;
